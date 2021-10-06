@@ -1,0 +1,45 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?b1d4fc373771000b9793e885b31bfaca") format("truetype"),
+url("./flaticon.woff?b1d4fc373771000b9793e885b31bfaca") format("woff"),
+url("./flaticon.woff2?b1d4fc373771000b9793e885b31bfaca") format("woff2"),
+url("./flaticon.eot?b1d4fc373771000b9793e885b31bfaca#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b1d4fc373771000b9793e885b31bfaca#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "pumkin": "\f101",
+    "chop": "\f102",
+    "orange": "\f103",
+    "onion": "\f104",
+    "healthy-food": "\f105",
+);
+
+.flaticon-pumkin:before {
+    content: map-get($flaticon-map, "pumkin");
+}
+.flaticon-chop:before {
+    content: map-get($flaticon-map, "chop");
+}
+.flaticon-orange:before {
+    content: map-get($flaticon-map, "orange");
+}
+.flaticon-onion:before {
+    content: map-get($flaticon-map, "onion");
+}
+.flaticon-healthy-food:before {
+    content: map-get($flaticon-map, "healthy-food");
+}
