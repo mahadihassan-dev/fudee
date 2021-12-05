@@ -647,5 +647,96 @@ a {
     }
 }
 
+.product_card_body {
+    text-align: center;
+    position: relative;
+    .product_card_body_img {
+        width: 270px;
+        height: 280px;
+        line-height: 280px;
+        text-align: center;
+        background: #fff;
+        margin: auto;
+        box-shadow: 0 0 45px -25px #00000040;
+        z-index: 999;
+    }
+    .product_card_bodyDetail {
+        margin-top: 35px;
+        .product_card_body_title {
+            font-family: 'Signika';
+            font-weight: bold;
+            font-size: 22px;
+        }
+        .pc_ratings {
+            padding-left: 0;
+            .pc_rating_list {
+                display: inline-block;
+                .pc_rating_item {
+                    color: #fe6b51;
+                    font-size: 14px;
+                }
+            }
+        }
+        .product_price {
+            color: #808285;
+            font-size: 18px;
+        }
+    }
+    // Product Card Hover
+    .product_card_hover {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0%;
+        .product_card_detail_icon {
+            width: 290px;
+            height: 355px;
+            background: #7dc642;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            padding: 150px 0px;
+            &::after {
+                position: absolute;
+                content: url(../images/product_card_bg.png);
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+            }
+            .pcd_icons {
+                padding-left: 0;
+                .pcd_icons_list {
+                    display: inline-block;
+                    .pcd_icon {
+                        display: block;
+                        width: 45px;
+                        height: 45px;
+                        text-align: center;
+                        line-height: 45px;
+                        background: #fff;
+                        border-radius: 50%;
+                        color: #000;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.product_addToCart_btn {
+    display: block;
+    background: #fff;
+    width: 170px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 30px;
+    margin: auto;
+    color: #000;
+}
+
 
 /*Our Product Section End*/

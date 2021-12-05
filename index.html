@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <!-- Flaticon -->
     <link rel="stylesheet" href="assets/icon/flaticon.css">
+    <!-- Venobox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/venobox@1/venobox/venobox.min.css">
     <!-- Signika Font = Google Font API -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -140,7 +142,7 @@
                                 <a href="#" class="banner_left_btn">Learn More <i class="fas fa-plus"></i></a>
                             </li>
                             <li class="banner_left_btnList">
-                                <a href="#" class="banner_left_btn bnr_watchBtn">Watch Videos <i class="far fa-play-circle"></i></a>
+                                <a href="https://youtu.be/QH-7pHhjvaM" class="venobox banner_left_btn bnr_watchBtn" data-autoplay="true" data-vbtype="video">Watch Videos <i class="far fa-play-circle"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -363,50 +365,170 @@
                         <div class="product_card_navbar">
                             <ul class="product_cat_nav">
                                 <li class="product_cat_nav_list">
-                                    <a href="#" class="product_cat_nav_item">
+                                    <button class="product_cat_nav_item" type="button" data-filter=".category-a">
                                         <i class="flaticon-healthy-food"></i>
                                         <span class="pr_card_nav_name">Vegetables</span>
-                                    </a>
+                                    </button>
                                 </li>
                                 <li class="product_cat_nav_list">
-                                    <a href="#" class="product_cat_nav_item">
+                                    <button class="product_cat_nav_item" type="button" data-filter=".category-b">
                                         <i class="flaticon-orange"></i>
                                         <span class="pr_card_nav_name">Orange</span>
-                                    </a>
+                                    </button>
                                 </li>
                                 <li class="product_cat_nav_list">
-                                    <a href="#" class="product_cat_nav_item">
+                                    <button class="product_cat_nav_item" type="button" data-filter=".category-c">
                                         <i class="flaticon-onion"></i>
                                         <span class="pr_card_nav_name">Onion</span>
-                                    </a>
+                                    </button>
                                 </li>
                                 <li class="product_cat_nav_list">
-                                    <a href="#" class="product_cat_nav_item">
+                                    <button class="product_cat_nav_item" type="button" data-filter=".category-d">
                                         <i class="flaticon-pumkin"></i>
                                         <span class="pr_card_nav_name">Pumkin</span>
-                                    </a>
+                                    </button>
                                 </li>
                                 <li class="product_cat_nav_list">
-                                    <a href="#" class="product_cat_nav_item">
+                                    <button class="product_cat_nav_item" type="button" data-filter=".category-e">
                                         <i class="flaticon-chop"></i>
                                         <span class="pr_card_nav_name">Meat</span>
-                                    </a>
+                                    </button>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <!-- Product Card Blocks -->
-                    <div class="col-md-12">
-                        <div class="row">
-                            <!-- ./Product Card -1 -->
-                            <div class="col-md-3">
-                                <div class="product_card_body">
-                                    <div class="product_card_body_img">
-                                        <img src="assets/images/product_card_img_1.png" class="img-fluid" alt="">
+                </div>
+                <!-- Product Card Blocks -->
+                <div class="product_card_row">
+                    <div class="row mix_container">
+                        <!-- ./Product Card -1 -->
+                        <div class="col-md-3 mix category-a category-e category-d">
+                            <div class="product_card_body">
+                                <div class="product_card_body_img">
+                                    <img src="assets/images/product_card_img_1.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="product_card_bodyDetail">
+                                    <h4 class="product_card_body_title">Fresh Orange</h4>
+                                    <span class="product_card_rating">
+                                            <ul class="pc_ratings">
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                            </ul>
+                                        </span>
+                                    <span class="product_price">$49.99</span>
+                                </div>
+                                <!-- Product card Hover -->
+                                <div class="product_card_hover">
+                                    <div class="product_card_detail_icon">
+                                        <ul class="pcd_icons">
+                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fal fa-expand-wide"></i></a></li>
+                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="far fa-heart"></i></a></li>
+                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-retweet"></i></a></li>
+                                        </ul>
+                                        <!-- ./ADD TO cart Button -->
+                                        <a href="#" class="product_addToCart_btn">Add to cart <i class="far fa-plus"></i></a>
                                     </div>
-                                    <div class="product_card_bodyDetail">
-                                        <h4 class="product_card_body_title">Fresh Orange</h4>
-
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ./Product Card - 2 -->
+                        <div class="col-md-3 mix category-a category-d category-c">
+                            <div class="product_card_body">
+                                <div class="product_card_body_img">
+                                    <img src="assets/images/product_card_img_2.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="product_card_bodyDetail">
+                                    <h4 class="product_card_body_title">Fresh Banana</h4>
+                                    <span class="product_card_rating">
+                                            <ul class="pc_ratings">
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                            </ul>
+                                        </span>
+                                    <span class="product_price">$49.99</span>
+                                </div>
+                                <!-- Product card Hover -->
+                                <div class="product_card_hover">
+                                    <div class="product_card_detail_icon">
+                                        <ul class="pcd_icons">
+                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fal fa-expand-wide"></i></a></li>
+                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="far fa-heart"></i></a></li>
+                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-retweet"></i></a></li>
+                                        </ul>
+                                        <!-- ./ADD TO cart Button -->
+                                        <a href="#" class="product_addToCart_btn">Add to cart <i class="far fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ./Product card - 3 -->
+                        <div class="col-md-3 mix category-a category-b">
+                            <div class="product_card_body">
+                                <div class="product_card_body_img">
+                                    <img src="assets/images/product_card_img_3.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="product_card_bodyDetail">
+                                    <h4 class="product_card_body_title">Fresh Beans</h4>
+                                    <span class="product_card_rating">
+                                            <ul class="pc_ratings">
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                            </ul>
+                                        </span>
+                                    <span class="product_price">$49.99</span>
+                                </div>
+                                <!-- Product card Hover -->
+                                <div class="product_card_hover">
+                                    <div class="product_card_detail_icon">
+                                        <ul class="pcd_icons">
+                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fal fa-expand-wide"></i></a></li>
+                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="far fa-heart"></i></a></li>
+                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-retweet"></i></a></li>
+                                        </ul>
+                                        <!-- ./ADD TO cart Button -->
+                                        <a href="#" class="product_addToCart_btn">Add to cart <i class="far fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ./Product Card - 4 -->
+                        <div class="col-md-3 mix category-a category-c category-e">
+                            <div class="product_card_body">
+                                <div class="product_card_body_img">
+                                    <img src="assets/images/product_card_img_4.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="product_card_bodyDetail">
+                                    <h4 class="product_card_body_title">Fresh Tomato</h4>
+                                    <span class="product_card_rating">
+                                            <ul class="pc_ratings">
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                                <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
+                                            </ul>
+                                        </span>
+                                    <span class="product_price">$49.99</span>
+                                </div>
+                                <!-- Product card Hover -->
+                                <div class="product_card_hover">
+                                    <div class="product_card_detail_icon">
+                                        <ul class="pcd_icons">
+                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fal fa-expand-wide"></i></a></li>
+                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="far fa-heart"></i></a></li>
+                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-retweet"></i></a></li>
+                                        </ul>
+                                        <!-- ./ADD TO cart Button -->
+                                        <a href="#" class="product_addToCart_btn">Add to cart <i class="far fa-plus"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -415,16 +537,180 @@
                 </div>
             </div>
         </div>
+        <!-- Load more Product Cards Button -->
+        <a href="#" class="view_more_productsCard">View More Products <i class="fas fa-plus"></i></a>
     </section>
     <!-- Our Produsct Section End -->
 
+    <!-- CTA Section Start -->
+    <section id="cta_section" class="cta_wrapper">
+        <div class="container">
+            <div class="row">
+                <!-- Main Column for Content -->
+                <div class="col-md-6">
+                    <div class="cta_left_column">
+                        <span class="cta_sub_head">Free Consultations</span>
+                        <h1 class="cta_main_head">Food is Very Important <br> for every Human Beings</h1>
+                        <p class="cta_desc">with love and dedications</p>
+                        <ul class="cta_btns_row">
+                            <li class="cta_btns"><a href="#" class="cta_btn cta_get_quoteBtn">Get a Quote <i class="fas fa-plus"></i></a></li>
+                            <li class="cta_btns"><a href="https://youtu.be/QH-7pHhjvaM" data-autoplay="true" data-vbtype="video" class="venobox cta_btn cta_video_btn">Watch Videos <i class="fal fa-play"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- ./this one is For blank -->
+                <div class="offset-md-6"></div>
+            </div>
+        </div>
+        <!-- Why Choose us Section Start -->
+        <div id="whyChooseUs" class="whyChooseUse_wrapper">
+            <div class=" container">
+                <div class="row">
+                    <!-- ./Column Left -->
+                    <div class="col-md-6">
+                        <div class="whyChooseUse_columnLeft">
+                            <div class="whyChooseUse_columnLeft_title">
+                                <span class="whyChooseUse_SubTitle">Why Choose Us</span>
+                                <h2 class="whyChooseUse_Title">Special Support & Caring <br> Organic farm Agency</h2>
+                            </div>
+                            <p class="whyChooseUs_descp whyChooseUs-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiaceaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                            <p class="whyChooseUs_descp whyChooseUs-2">Laudanti totam rem aperiaceaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                            <a href="#" class="whyChooseUs_btn">Learn More <i class="fas fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <!-- ./Column Right -->
+                    <div class="col-md-6">
+                        <div class="whyChooseUsoption">
+                            <ul class="whyChooseUs_row">
+                                <!-- ./options 1 -->
+                                <li class="whyChooseUs_option">
+                                    <ul class="whyChooseUs-OptionCard">
+                                        <li class="whyChooseUs-OptionCardIcon">
+                                            <span class="optCardIcon">
+                                                <i class="fal fa-leaf"></i>
+                                            </span>
+                                        </li>
+                                        <li class="whyChooseUs-OptionCardDetail">
+                                            <h3 class="whyChooseUs-OptionCardDetailTitle">Natural Process</h3>
+                                            <p class="whyChooseUs-OptionCardDetailPara">Sorem ipsum dolor sit amet consecta dipisicing sed eiusmod tempor</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- ./options 2 -->
+                                <li class="whyChooseUs_option">
+                                    <ul class="whyChooseUs-OptionCard">
+                                        <li class="whyChooseUs-OptionCardIcon">
+                                            <span class="optCardIcon">
+                                                <i class="fal fa-leaf"></i>
+                                            </span>
+                                        </li>
+                                        <li class="whyChooseUs-OptionCardDetail">
+                                            <h3 class="whyChooseUs-OptionCardDetailTitle">Natural Process</h3>
+                                            <p class="whyChooseUs-OptionCardDetailPara">Sorem ipsum dolor sit amet consecta dipisicing sed eiusmod tempor</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- ./options 3 -->
+                                <li class="whyChooseUs_option">
+                                    <ul class="whyChooseUs-OptionCard">
+                                        <li class="whyChooseUs-OptionCardIcon">
+                                            <span class="optCardIcon">
+                                                <i class="fal fa-leaf"></i>
+                                            </span>
+                                        </li>
+                                        <li class="whyChooseUs-OptionCardDetail">
+                                            <h3 class="whyChooseUs-OptionCardDetailTitle">Natural Process</h3>
+                                            <p class="whyChooseUs-OptionCardDetailPara">Sorem ipsum dolor sit amet consecta dipisicing sed eiusmod tempor</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- ./options 4 -->
+                                <li class="whyChooseUs_option">
+                                    <ul class="whyChooseUs-OptionCard">
+                                        <li class="whyChooseUs-OptionCardIcon">
+                                            <span class="optCardIcon">
+                                                <i class="fal fa-leaf"></i>
+                                            </span>
+                                        </li>
+                                        <li class="whyChooseUs-OptionCardDetail">
+                                            <h3 class="whyChooseUs-OptionCardDetailTitle">Natural Process</h3>
+                                            <p class="whyChooseUs-OptionCardDetailPara">Sorem ipsum dolor sit amet consecta dipisicing sed eiusmod tempor</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Why Choose us Section End -->
+    </section>
+    <!-- CTA Section End -->
+    <!-- Photo Gallery Sections Start -->
+    <section id="photoGallery" class="photoGallery_wrapper">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="photoGallery_section_title section_title">
+                        <span class="photoGallery_section_sub_title">Our Product</span>
+                        <h3 class="photoGallery_section_title">Let’s See Our Beautyful
+                            <br> Gardern Views</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Gallery Main Row Navigation -->
+            <div class="galleryNav">
+                <ul class="galleryNavigationItem">
+                    <li class="galleryNavItem">
+                        <button type="button" class="galleryNavBtn">Show All</button>
+                    </li>
+                    <li class="galleryNavItem">
+                        <button type="button" class="galleryNavBtn">Vegetables</button>
+                    </li>
+                    <li class="galleryNavItem">
+                        <button type="button" class="galleryNavBtn">Farmers</button>
+                    </li>
+                    <li class="galleryNavItem">
+                        <button type="button" class="galleryNavBtn">Doctors</button>
+                    </li>
+                    <li class="galleryNavItem">
+                        <button type="button" class="galleryNavBtn">Fruits</button>
+                    </li>
+                    <li class="galleryNavItem">
+                        <button type="button" class="galleryNavBtn">Garden</button>
+                    </li>
+                </ul>
+            </div>
+            <!-- Gallery card row -->
+            <div class="galleryCardRow">
+                <!-- Gallery Card - 1 -->
+                <div class="galleryCard">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Photo Gallery Sections End -->
+
 
     <!-- Javascript -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@1.11.0/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.0/jquery-migrate.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js" async defer></script>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async defer></script>
     <script type="text/javascript" src="assets/js/fontawesome.min.js" async defer></script>
     <script type="text/javascript" src="https://projects-directory.netlify.app/assets/js/6332f77505.js" async defer></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mixitup@3/dist/mixitup.min.js" async defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/venobox@1/venobox/venobox.min.js"></script>
+    <script type="text/javascript" src="assets/js/mixitup.min.js" async defer></script>
+    <!-- Internal Javascript -->
+    <script>
+        // Venobox for Video plugin
+        $(document).ready(function() {
+            $('.venobox').venobox();
+        });
+    </script>
 </body>
 
 </html>
