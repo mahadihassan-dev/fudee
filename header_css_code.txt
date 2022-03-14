@@ -1,0 +1,150 @@
+/* Header CSS Start */
+
+
+/* line 54, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header {
+    background: #7dc64212;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+/* line 58, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+/* line 64, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_left-Col {
+    width: 50%;
+}
+
+
+/* line 66, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_left-Col .HeaderTop_leftList {
+    margin-bottom: 0;
+}
+
+
+/* line 68, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_left-Col .HeaderTop_leftList .HeaderTop_leftListItem {
+    display: inline-block;
+}
+
+
+/* line 70, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_left-Col .HeaderTop_leftList .HeaderTop_leftListItem:nth-last-child(1) {
+    margin-left: 15px;
+}
+
+
+/* line 73, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_left-Col .HeaderTop_leftList .HeaderTop_leftListItem:nth-last-child(2) {
+    margin-left: 15px;
+}
+
+
+/* line 76, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_left-Col .HeaderTop_leftList .HeaderTop_leftListItem .HeaderTop_leftList_Item {
+    font-size: 14px;
+    color: #1f2b3b;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+
+/* line 81, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_left-Col .HeaderTop_leftList .HeaderTop_leftListItem .HeaderTop_leftList_Item i {
+    color: #7dc642;
+    margin-right: 5px;
+}
+
+
+/* line 89, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_right-Col {
+    width: 50%;
+    text-align: right;
+}
+
+
+/* line 92, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_right-Col .HeaderTop_rightList {
+    margin-bottom: 0;
+}
+
+
+/* line 94, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_right-Col .HeaderTop_rightList .HeaderTop_rightListItems {
+    display: inline-block;
+}
+
+
+/* line 96, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_right-Col .HeaderTop_rightList .HeaderTop_rightListItems .HeaderTop_rightListItem {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1f2b3b;
+    border-bottom: 0.5px solid #1f2b3b;
+}
+
+
+/* line 102, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_right-Col .HeaderTop_rightList .HeaderTop_rightListItems .HeaderTop_rightSocialItemlist {
+    margin-bottom: 0;
+}
+
+
+/* line 104, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_right-Col .HeaderTop_rightList .HeaderTop_rightListItems .HeaderTop_rightSocialItemlist .HeaderTop_rightSocialItem {
+    display: inline-block;
+}
+
+
+/* line 106, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_right-Col .HeaderTop_rightList .HeaderTop_rightListItems .HeaderTop_rightSocialItemlist .HeaderTop_rightSocialItem .HeaderTop_rightSocialItems {
+    display: block;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+}
+
+
+/* line 113, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_right-Col .HeaderTop_rightList .HeaderTop_rightListItems .HeaderTop_rightSocialItemlist .HeaderTop_rightSocialItem .HeaderTop_rightSocialItems i {
+    color: #8c8f94;
+    transition: all linear .3s;
+}
+
+
+/* line 116, ../../GitHub Projects/fudee/assets/scss/style.scss */
+
+.site-header .HeaderTop-Row .HeaderTop_right-Col .HeaderTop_rightList .HeaderTop_rightListItems .HeaderTop_rightSocialItemlist .HeaderTop_rightSocialItem .HeaderTop_rightSocialItems i:hover {
+    color: #7dc642;
+}
+
+
+/* Header CSS End */

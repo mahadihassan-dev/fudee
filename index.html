@@ -8,19 +8,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Site Title -->
     <title>Fudee | HTML Template</title>
+    <meta name="description" content="Fudee is Organic Product HTML Template. Designed and Developed By Mahadi Hassan.">
+    <meta name="keywords" content="fudee; HTML Template; Themeforest; Front End Development; Mahadi Hassan">
     <link rel="shortcut icon" href="assets/images/favico.png" type="image/x-icon">
     <meta name="description" content="mahadi hassan; Fudee HTML Template;">
     <!-- Theme Core CSS Style -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- Bootstrap 5 -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css">
     <!-- Fontawesome 5.14 -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/fontawesome-free-5.15.4/css/all.css">
+    <link rel="stylesheet" href="assets/vendor/fontawesome-free-5.15.4/css/fontawesome.css">
     <!-- Flaticon -->
     <link rel="stylesheet" href="assets/icon/flaticon.css">
     <!-- Venobox -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/venobox@1/venobox/venobox.min.css">
+    <link rel="stylesheet" href="assets/vendor/venobox-v2/venobox.css">
     <!-- Signika Font = Google Font API -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,387 +32,516 @@
 
 <body>
 
-    <!-- Header Section Start -->
-    <header id="header" class="site-header">
-        <div class="fudee_container">
-            <!-- Header Top Contact Shortcut -->
-            <div class="HeaderTop-Row">
-                <!-- Header Top Left -->
-                <div class="HeaderTop_left-Col">
-                    <ul class="HeaderTop_leftList">
-                        <li class="HeaderTop_leftListItem">
-                            <a href="" class="HeaderTop_leftList_Item"><i class="fal fa-phone"></i> +880-1308310494</a>
-                        </li>
-                        <li class="HeaderTop_leftListItem">
-                            <a href="" class="HeaderTop_leftList_Item"><i class="far fa-envelope-open"></i> mahadihassan.mhd@gmail.com</a>
-                        </li>
-                        <li class="HeaderTop_leftListItem">
-                            <a href="" class="HeaderTop_leftList_Item"><i class="far fa-map-marker-alt"></i> 205 New Road, New York</a>
-                        </li>
-                    </ul>
+    <!-- ===Header Section: Start=== -->
+    <header id="header_main" class="header_wrapper">
+        <!-- Desktop Menu: Start -->
+        <div class="nav_desktop">
+            <!-- Header Top: Start -->
+            <div class="header_top py-1" style="background: #F2F9EC;">
+                <div class="container-fluid px__5">
+                    <!-- Header Top Row One Social: Start -->
+                    <div class="row">
+                        <!-- Header Col One Social: Start -->
+                        <div class="col-6 col-lg-6 col-xl-6">
+                            <div class="header_contact align-content-lg-center align-middle">
+                                <ul class="header_Contact_lists mb-0 px-0">
+                                    <li class="header_contact_list d-inline-block"><a href="#" class="header_contact_list_item"><i class="fal fa-phone"></i> +880-1308310494</a></li>
+                                    <li class="header_contact_list d-inline-block"><a href="#" class="header_contact_list_item"><i class="far fa-envelope-open"></i> mahadihassan.mhd@gmail.com</a></li>
+                                    <li class="header_contact_list d-inline-block"><a href="#" class="header_contact_list_item"><i class="fas fa-map-marker-alt"></i>205 New Road, New York</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Header Col One Social: End -->
+                        <!-- Header Col Two Social: Start -->
+                        <div class="col-6 col-lg-6 col-xl-6">
+                            <div class="header_social">
+                                <ul class="header_social_lists text-end mb-0">
+                                    <li class="header_social_list d-inline-block">
+                                        <a href="#" class="header_social_item">
+                                            <span>Settings and Privacy</span>
+                                        </a>
+                                    </li>
+                                    <li class="header_social_list d-inline-block">
+                                        <a href="#" class="header_social_item px-1 d-inline-block">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="header_social_list d-inline-block">
+                                        <a href="#" class="header_social_item px-1 d-inline-block">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="header_social_list d-inline-block">
+                                        <a href="#" class="header_social_item px-1 d-inline-block">
+                                            <i class="fab fa-behance"></i>
+                                        </a>
+                                    </li>
+                                    <li class="header_social_list d-inline-block">
+                                        <a href="#" class="header_social_item px-1 d-inline-block">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Header Col Two Social: End -->
+                    </div>
+                    <!-- Header Top Row One Social: End -->
                 </div>
-                <!-- Header Top Right -->
-                <div class="HeaderTop_right-Col">
-                    <ul class="HeaderTop_rightList">
-                        <li class="HeaderTop_rightListItems">
-                            <a href="#" class="HeaderTop_rightListItem">Setting & Privacy</a>
-                        </li>
-                        <li class="HeaderTop_rightListItems">
-                            <ul class="HeaderTop_rightSocialItemlist">
-                                <li class="HeaderTop_rightSocialItem">
-                                    <a href="#" class="HeaderTop_rightSocialItems"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <!-- Header Top: End -->
+            <!-- Header Navigation: Start -->
+            <div class="header_nav">
+                <div class="container-fluid px__5">
+                    <div class="row row-cols-3">
+                        <!-- Header Nav Site Logo -->
+                        <div class="col-3 col-lg-3 col-xl-3">
+                            <div class="header_site_logo h-100 py-3">
+                                <a href="#" class="site_nav_logo">
+                                    <img src="assets/images/logo.png" alt="site logo" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Header Site Nav -->
+                        <div class="col-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <div class="header_site_menu h-100">
+                                <ul class="site_header_navbar text-center mb-0 px-0 h-100">
+                                    <li class="site_header_nav_list d-inline-block">
+                                        <a href="#" class="px-3 site_header_nav_list_items">Home <i class="fas fa-caret-down"></i></a>
+                                        <ul class="child_dropdown">
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V1</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V2</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V3</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V4</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V5</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="site_header_nav_list d-inline-block">
+                                        <a href="#" class="px-3 site_header_nav_list_items">About <i class="fas fa-caret-down"></i></a>
+                                        <ul class="child_dropdown">
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V1</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V2</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V3</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V4</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V5</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="site_header_nav_list d-inline-block">
+                                        <a href="#" class="px-3 site_header_nav_list_items">Services <i class="fas fa-caret-down"></i></a>
+                                        <ul class="child_dropdown">
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V1</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V2</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V3</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V4</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V5</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="site_header_nav_list d-inline-block">
+                                        <a href="#" class="px-3 site_header_nav_list_items">Shop <i class="fas fa-caret-down"></i></a>
+                                        <ul class="child_dropdown">
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V1</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V2</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V3</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V4</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V5</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="site_header_nav_list d-inline-block">
+                                        <a href="#" class="px-3 site_header_nav_list_items">Blog <i class="fas fa-caret-down"></i></a>
+                                        <ul class="child_dropdown">
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V1</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V2</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V3</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V4</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V5</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="site_header_nav_list d-inline-block">
+                                        <a href="#" class="px-3 site_header_nav_list_items">Pages <i class="fas fa-caret-down"></i></a>
+                                        <ul class="child_dropdown">
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V1</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V2</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V3</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V4</a>
+                                            </li>
+                                            <li class="child_dropdown_list_item">
+                                                <a href="#" class="child_dropdown_item"> <i class="fas fa-chevron-double-right"></i> Home V5</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="site_header_nav_list d-inline-block">
+                                        <a href="#" class="px-3 site_header_nav_list_items">Contact <i class="fas fa-caret-down"></i></a>
+                                    </li>
+                                    <li class="site_header_nav_list d-inline-block header_search_item_box">
+                                        <a href="#" id="header_search_item_box_BTN" onclick="search_form()" class="px-3 site_header_nav_list_items"><i class="fas fa-search"></i></a>
+                                        <!-- Header Search Form : Start -->
+                                        <div class="header_search_form" id="header_search_form_BOX" style="display: none;">
+                                            <form action="" id="Header_search_form" class="header_search_box">
+                                                <input type="search" name="header__search" id="Header_search_Box" class="header_search__box" required placeholder="Search Here...">
+                                                <button class="header_srchbtn">Search <i class="fas fa-search"></i></button>
+                                            </form>
+                                        </div>
+                                        <!-- Header Search Form : End -->
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Header Shop Now Button -->
+                        <div class="col-3 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="header_shop_btn text-end h-100 ">
+                                <a href="#" class="header_shop">Shop Now <i class="fas fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header Navigation: End -->
+        </div>
+        <!-- Desktop Menu: End -->
+    </header>
+    <!-- ===Header Section: End=== -->
+
+    <!-- ===Main Content Section: Start=== -->
+    <main id="fudee_main" class="fudee_content_wrapper">
+        <!-- Banner Section Start -->
+        <section id="banner" class="banner_main">
+            <div class="fudee_container">
+                <div class="fudee_banner-row">
+                    <!-- Banner left Column -->
+                    <div class="fudee_banner-left-col">
+                        <div class="banner_left_content">
+                            <span class="banner_left_subTitle">Food and Vegetables</span>
+                            <h1 class="banner_left_mainTitle"> <span>Organic</span> Food <br> Providers </h1>
+                            <ul class="banner_left_button_list">
+                                <li class="banner_left_btnList">
+                                    <a href="#" class="banner_left_btn">Learn More <i class="fas fa-plus"></i></a>
                                 </li>
-                                <li class="HeaderTop_rightSocialItem">
-                                    <a href="#" class="HeaderTop_rightSocialItems"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li class="HeaderTop_rightSocialItem">
-                                    <a href="#" class="HeaderTop_rightSocialItems"><i class="fab fa-behance"></i></a>
-                                </li>
-                                <li class="HeaderTop_rightSocialItem">
-                                    <a href="#" class="HeaderTop_rightSocialItems"><i class="fab fa-instagram"></i></a>
+                                <li class="banner_left_btnList">
+                                    <a href="https://youtu.be/QH-7pHhjvaM" class="venobox banner_left_btn bnr_watchBtn" data-autoplay="true" data-vbtype="video">Watch Videos <i class="far fa-play-circle"></i></a>
                                 </li>
                             </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Header Section End -->
-
-    <!-- Header Navigtaion Start -->
-    <nav id="HeaderNav" class="HeaderNavigation">
-        <div class="fudee_container">
-            <div class="fudee_nav_Row">
-                <!-- Site Logo -->
-                <div class="fudee_logo-Col">
-                    <a href="#" class="SiteLogo">
-                        <img src="assets/images/logo.png" class="img-fluid" alt="fudee logo; fudee main logo; main logo; main logo; site main logo;">
-                    </a>
-                </div>
-                <!-- Site Menu -->
-                <div class="fudee_menu-Col">
-                    <ul class="fudee_menu_item-list">
-                        <li class="fudee_menu_item">
-                            <a href="#" class="fudee_menu_navItem">Home <i class="fas fa-sort-down"></i></a>
-                        </li>
-                        <li class="fudee_menu_item">
-                            <a href="#" class="fudee_menu_navItem">About <i class="fas fa-sort-down"></i></a>
-                        </li>
-                        <li class="fudee_menu_item">
-                            <a href="#" class="fudee_menu_navItem">Service <i class="fas fa-sort-down"></i></a>
-                        </li>
-                        <li class="fudee_menu_item">
-                            <a href="#" class="fudee_menu_navItem">Shop <i class="fas fa-sort-down"></i></a>
-                        </li>
-                        <li class="fudee_menu_item">
-                            <a href="#" class="fudee_menu_navItem">Blog <i class="fas fa-sort-down"></i></a>
-                        </li>
-                        <li class="fudee_menu_item">
-                            <a href="#" class="fudee_menu_navItem">Pages <i class="fas fa-sort-down"></i></a>
-                        </li>
-                        <li class="fudee_menu_item">
-                            <a href="#" class="fudee_menu_navItem">Contact <i class="fas fa-sort-down"></i></a>
-                        </li>
-                        <li class="fudee_menu_item">
-                            <a href="#" class="fudee_menu_navItem navSearchBox">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Site Shop now Button -->
-                <div class="fudee_shopNow-Col">
-                    <a href="#" class="fudeeShopNowButton">
-                        Shop Now<i class="fas fa-plus"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Banner Section Start -->
-    <section id="banner" class="banner_main">
-        <div class="fudee_container">
-            <div class="fudee_banner-row">
-                <!-- Banner left Column -->
-                <div class="fudee_banner-left-col">
-                    <div class="banner_left_content">
-                        <span class="banner_left_subTitle">Food and Vegetables</span>
-                        <h1 class="banner_left_mainTitle"> <span>Organic</span> Food <br> Providers </h1>
-                        <ul class="banner_left_button_list">
-                            <li class="banner_left_btnList">
-                                <a href="#" class="banner_left_btn">Learn More <i class="fas fa-plus"></i></a>
-                            </li>
-                            <li class="banner_left_btnList">
-                                <a href="https://youtu.be/QH-7pHhjvaM" class="venobox banner_left_btn bnr_watchBtn" data-autoplay="true" data-vbtype="video">Watch Videos <i class="far fa-play-circle"></i></a>
-                            </li>
-                        </ul>
+                        </div>
+                        <!-- banner top before Leaf -->
+                        <div class="bnrLeft_before_leaf">
+                            <img src="assets/images/banner_left_after_top_leaf.png" alt="" class="img-fluid">
+                        </div>
                     </div>
-                    <!-- banner top before Leaf -->
-                    <div class="bnrLeft_before_leaf">
-                        <img src="assets/images/banner_left_after_top_leaf.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <!-- Banner Right Column -->
-                <div class="fudee_banner-right-col">
-                    <div class="banner_right_content">
-                        <img src="assets/images/banner_orange.png" class="img-fluid w-75" alt="banner">
+                    <!-- Banner Right Column -->
+                    <div class="fudee_banner-right-col">
+                        <div class="banner_right_content">
+                            <img src="assets/images/banner_orange.png" class="img-fluid w-75 banner_right_image vert-move" alt="banner">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Banner Bottom After Images -->
-        <div class="bnr_bottom_afterImages">
-            <img src="assets/images/banner_left_after_leaf.png" alt="" class="img-fluid">
-        </div>
-    </section>
-    <!-- Banner Section End -->
+            <!-- Banner Bottom After Images -->
+            <div class="bnr_bottom_afterImages">
+                <img src="assets/images/banner_left_after_leaf.png" alt="" class="img-fluid">
+            </div>
+        </section>
+        <!-- Banner Section End -->
 
-    <!-- Product Service Card Section Start -->
-    <section id="product_service_card" class="productServicecard_main">
-        <div class="ps-card-container-row">
-            <!-- Product card Col 1 -->
-            <div class="product_card_col">
-                <div class="product_card-content">
-                    <img src="assets/images/tomato_icon.png" class="img-fluid" alt="card icon">
-                    <h3 class="product_card_title">Organic Food</h3>
-                    <p class="product_card_description">
-                        Sed ut perspiciatis omnis iste natus error sit voluptate accusa ntiuy dolorem laudantium
-                    </p>
-                </div>
-                <!-- ./before circle at top -->
-                <span class="psc_circle_top"></span>
-                <!-- ./after circle at bottom -->
-                <span class="psc_circle_bottom">
-                    <img src="assets/images/card_transparent_effect.png" alt="" class="img-fluid">
-                </span>
-            </div>
-            <!-- Product card Col 2 -->
-            <div class="product_card_col">
-                <div class="product_card-content">
-                    <img src="assets/images/seed_icon.png" class="img-fluid" alt="card icon">
-                    <h3 class="product_card_title">Gardening</h3>
-                    <p class="product_card_description">
-                        Sed ut perspiciatis omnis iste natus error sit voluptate accusa ntiuy dolorem laudantium
-                    </p>
-                </div>
-                <!-- ./before circle at top -->
-                <span class="psc_circle_top"></span>
-                <!-- ./after circle at bottom -->
-                <span class="psc_circle_bottom">
-                    <img src="assets/images/card_transparent_effect.png" alt="" class="img-fluid">
-                </span>
-            </div>
-            <!-- Product card Col 3 -->
-            <div class="product_card_col">
-                <div class="product_card-content">
-                    <img src="assets/images/capsicum_icon.png" class="img-fluid" alt="card icon">
-                    <h3 class="product_card_title">Fresh & Organic</h3>
-                    <p class="product_card_description">
-                        Sed ut perspiciatis omnis iste natus error sit voluptate accusa ntiuy dolorem laudantium
-                    </p>
-                </div>
-                <!-- ./before circle at top -->
-                <span class="psc_circle_top"></span>
-                <!-- ./after circle at bottom -->
-                <span class="psc_circle_bottom">
-                    <img src="assets/images/card_transparent_effect.png" alt="" class="img-fluid">
-                </span>
-            </div>
-            <!-- Product card Col 4 -->
-            <div class="product_card_col">
-                <div class="product_card-content">
-                    <img src="assets/images/tomato_icon.png" class="img-fluid" alt="card icon">
-                    <h3 class="product_card_title">Landscapping</h3>
-                    <p class="product_card_description">
-                        Sed ut perspiciatis omnis iste natus error sit voluptate accusa ntiuy dolorem laudantium
-                    </p>
-                </div>
-                <!-- ./before circle at top -->
-                <span class="psc_circle_top"></span>
-                <!-- ./after circle at bottom -->
-                <span class="psc_circle_bottom">
-                    <img src="assets/images/card_transparent_effect.png" alt="" class="img-fluid">
-                </span>
-            </div>
-        </div>
-    </section>
-    <!-- Product Service Card Section End -->
-
-    <!-- About us Section Start -->
-    <section id="about_us" class="about_us_main">
-        <div class="container">
-            <!-- About us Title -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="about_us_section-title section_title">
-                        <span class="about_us_head_subtitle">About us</span>
-                        <h3 class="about_us_title">We're Global Food Delivery <br> Organic Company</h3>
+        <!-- Product Service Card Section Start -->
+        <section id="product_service_card" class="productServicecard_main">
+            <div class="ps-card-container-row">
+                <!-- Product card Col 1 -->
+                <div class="product_card_col">
+                    <div class="product_card-content">
+                        <img src="assets/images/tomato_icon.png" class="img-fluid" alt="card icon">
+                        <h3 class="product_card_title">Organic Food</h3>
+                        <p class="product_card_description">
+                            Sed ut perspiciatis omnis iste natus error sit voluptate accusa ntiuy dolorem laudantium
+                        </p>
                     </div>
+                    <!-- ./before circle at top -->
+                    <span class="psc_circle_top"></span>
+                    <!-- ./after circle at bottom -->
+                    <span class="psc_circle_bottom">
+                    <img src="assets/images/card_transparent_effect.png" alt="" class="img-fluid">
+                </span>
+                </div>
+                <!-- Product card Col 2 -->
+                <div class="product_card_col">
+                    <div class="product_card-content">
+                        <img src="assets/images/seed_icon.png" class="img-fluid" alt="card icon">
+                        <h3 class="product_card_title">Gardening</h3>
+                        <p class="product_card_description">
+                            Sed ut perspiciatis omnis iste natus error sit voluptate accusa ntiuy dolorem laudantium
+                        </p>
+                    </div>
+                    <!-- ./before circle at top -->
+                    <span class="psc_circle_top"></span>
+                    <!-- ./after circle at bottom -->
+                    <span class="psc_circle_bottom">
+                    <img src="assets/images/card_transparent_effect.png" alt="" class="img-fluid">
+                </span>
+                </div>
+                <!-- Product card Col 3 -->
+                <div class="product_card_col">
+                    <div class="product_card-content">
+                        <img src="assets/images/capsicum_icon.png" class="img-fluid" alt="card icon">
+                        <h3 class="product_card_title">Fresh & Organic</h3>
+                        <p class="product_card_description">
+                            Sed ut perspiciatis omnis iste natus error sit voluptate accusa ntiuy dolorem laudantium
+                        </p>
+                    </div>
+                    <!-- ./before circle at top -->
+                    <span class="psc_circle_top"></span>
+                    <!-- ./after circle at bottom -->
+                    <span class="psc_circle_bottom">
+                    <img src="assets/images/card_transparent_effect.png" alt="" class="img-fluid">
+                </span>
+                </div>
+                <!-- Product card Col 4 -->
+                <div class="product_card_col">
+                    <div class="product_card-content">
+                        <img src="assets/images/tomato_icon.png" class="img-fluid" alt="card icon">
+                        <h3 class="product_card_title">Landscapping</h3>
+                        <p class="product_card_description">
+                            Sed ut perspiciatis omnis iste natus error sit voluptate accusa ntiuy dolorem laudantium
+                        </p>
+                    </div>
+                    <!-- ./before circle at top -->
+                    <span class="psc_circle_top"></span>
+                    <!-- ./after circle at bottom -->
+                    <span class="psc_circle_bottom">
+                    <img src="assets/images/card_transparent_effect.png" alt="" class="img-fluid">
+                </span>
                 </div>
             </div>
-            <!-- About us description -->
-            <div class="about_main">
+        </section>
+        <!-- Product Service Card Section End -->
+
+        <!-- About us Section Start -->
+        <section id="about_us" class="about_us_main">
+            <div class="container">
+                <!-- About us Title -->
                 <div class="row">
-                    <!-- About us Column -1 -->
-                    <div class="col-md-6">
-                        <div class="about_us_col-left">
-                            <img src="assets/images/about_us_left_image.png" class="img-fluid" alt="about us left column iamges; mahadi hassan">
-                            <span class="about_us_after_img">
+                    <div class="col-md-12">
+                        <div class="about_us_section-title section_title">
+                            <span class="about_us_head_subtitle">About us</span>
+                            <h3 class="about_us_title">We're Global Food Delivery <br> Organic Company</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- About us description -->
+                <div class="about_main">
+                    <div class="row">
+                        <!-- About us Column -1 -->
+                        <div class="col-md-6">
+                            <div class="about_us_col-left">
+                                <img src="assets/images/about_us_left_image.png" class="img-fluid" alt="about us left column iamges; mahadi hassan">
+                                <span class="about_us_after_img">
                                 <img src="assets/images/about_us_left_image_after.png" class="img-fluid" alt="">
                             </span>
+                            </div>
                         </div>
-                    </div>
-                    <!-- About Us Column -2 -->
-                    <div class="col-md-6">
-                        <div class="about_us_col-right">
-                            <span class="about_exp_number">25</span>
-                            <h4 class="about_exp_descrp">Years Since We Provide
-                                <br> Organic Food & Vegetables
-                                <br> For Golbal Agency
-                            </h4>
-                            <p class="about_exp_detail">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudanti totam aperiam eaque ipsa quae ab illo inventore veritatis et architecto beatae vitae dicta sunt explicabo. Nemoes enim ipsam voluptatem
-                                volup aspernatur</p>
-                            <a href="#" class="about_exp_btn">Learn More <i class="fas fa-plus"></i></a>
+                        <!-- About Us Column -2 -->
+                        <div class="col-md-6">
+                            <div class="about_us_col-right">
+                                <span class="about_exp_number">25</span>
+                                <h4 class="about_exp_descrp">Years Since We Provide
+                                    <br> Organic Food & Vegetables
+                                    <br> For Golbal Agency
+                                </h4>
+                                <p class="about_exp_detail">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudanti totam aperiam eaque ipsa quae ab illo inventore veritatis et architecto beatae vitae dicta sunt explicabo. Nemoes enim ipsam
+                                    voluptatem volup aspernatur</p>
+                                <a href="#" class="about_exp_btn">Learn More <i class="fas fa-plus"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- About us Section End -->
+        </section>
+        <!-- About us Section End -->
 
-    <!-- Our Service Card Section Start -->
-    <section id="service" class="our_service">
-        <div class="container">
-            <!-- Service Section Start -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="service_section_headingTitle section_title">
-                        <span class="service_section_title">What We Do</span>
-                        <h3 class="service_section_main">Services We Provide That
-                            <br> Benifited Health</h3>
-                    </div>
-                </div>
-            </div>
-            <!-- Service Section -->
-            <div class="service_card">
+        <!-- Our Service Card Section Start -->
+        <section id="service" class="our_service">
+            <div class="container">
+                <!-- Service Section Start -->
                 <div class="row">
-                    <!-- Service Column 1 -->
-                    <div class="col-md-4">
-                        <div class="service_col">
-                            <div class="service_card_image">
-                                <img src="assets/images/service_card.png" class="img-fluid w-100" alt="service card Images; mahadi hassan">
-                                <span class="service_card_icon"><img src="assets/images/service_card_icon-1.png" class="img-fluid" alt="service card icon; mahadi hassan"></span>
-                            </div>
-                            <div class="service_card_description">
-                                <h4 class="service_card_title">Fruits & Vegetables</h4>
-                                <p class="service_card_detail">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                <a href="#" class="service_card_btnLink"><i class="fal fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Service Column 2 -->
-                    <div class="col-md-4">
-                        <div class="service_col">
-                            <div class="service_card_image">
-                                <img src="assets/images/service_card_2.png" class="img-fluid w-100" alt="service card Images; mahadi hassan">
-                                <span class="service_card_icon"><img src="assets/images/service_card_icon-1.png" class="img-fluid" alt="service card icon; mahadi hassan"></span>
-                            </div>
-                            <div class="service_card_description">
-                                <h4 class="service_card_title">Fruits & Vegetables</h4>
-                                <p class="service_card_detail">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                <a href="#" class="service_card_btnLink"><i class="fal fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Service Column 3 -->
-                    <div class="col-md-4">
-                        <div class="service_col">
-                            <div class="service_card_image">
-                                <img src="assets/images/service_card.png" class="img-fluid w-100" alt="service card Images; mahadi hassan">
-                                <span class="service_card_icon"><img src="assets/images/service_card_icon-1.png" class="img-fluid" alt="service card icon; mahadi hassan"></span>
-                            </div>
-                            <div class="service_card_description">
-                                <h4 class="service_card_title">Fruits & Vegetables</h4>
-                                <p class="service_card_detail">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                <a href="#" class="service_card_btnLink"><i class="fal fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Our Service Card Section End -->
-
-    <!-- Our Produsct Section Start -->
-    <section id="product" class="our_product">
-        <div class="container">
-            <!-- our product section title -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="product_section_title section_title">
-                        <span class="product_section_sub_title">Our Product</span>
-                        <h3 class="product_section_title">We Provide Different Organic
-                            <br> Healthy Foods</h3>
-                    </div>
-                </div>
-            </div>
-            <!-- Our Product Card Start -->
-            <div class="our_product_row">
-                <div class="row">
-                    <!-- Product Card navigator -->
                     <div class="col-md-12">
-                        <div class="product_card_navbar">
-                            <ul class="product_cat_nav">
-                                <li class="product_cat_nav_list">
-                                    <button class="product_cat_nav_item" type="button" data-filter=".category-a">
+                        <div class="service_section_headingTitle section_title">
+                            <span class="service_section_title">What We Do</span>
+                            <h3 class="service_section_main">Services We Provide That
+                                <br> Benifited Health</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service Section -->
+                <div class="service_card">
+                    <div class="row">
+                        <!-- Service Column 1 -->
+                        <div class="col-md-4">
+                            <div class="service_col">
+                                <div class="service_card_image">
+                                    <img src="assets/images/service_card.png" class="img-fluid w-100" alt="service card Images; mahadi hassan">
+                                    <span class="service_card_icon"><img src="assets/images/service_card_icon-1.png" class="img-fluid" alt="service card icon; mahadi hassan"></span>
+                                </div>
+                                <div class="service_card_description">
+                                    <h4 class="service_card_title">Fruits & Vegetables</h4>
+                                    <p class="service_card_detail">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                    <a href="#" class="service_card_btnLink"><i class="fal fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Service Column 2 -->
+                        <div class="col-md-4">
+                            <div class="service_col">
+                                <div class="service_card_image">
+                                    <img src="assets/images/service_card_2.png" class="img-fluid w-100" alt="service card Images; mahadi hassan">
+                                    <span class="service_card_icon"><img src="assets/images/service_card_icon-1.png" class="img-fluid" alt="service card icon; mahadi hassan"></span>
+                                </div>
+                                <div class="service_card_description">
+                                    <h4 class="service_card_title">Fruits & Vegetables</h4>
+                                    <p class="service_card_detail">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                    <a href="#" class="service_card_btnLink"><i class="fal fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Service Column 3 -->
+                        <div class="col-md-4">
+                            <div class="service_col">
+                                <div class="service_card_image">
+                                    <img src="assets/images/service_card.png" class="img-fluid w-100" alt="service card Images; mahadi hassan">
+                                    <span class="service_card_icon"><img src="assets/images/service_card_icon-1.png" class="img-fluid" alt="service card icon; mahadi hassan"></span>
+                                </div>
+                                <div class="service_card_description">
+                                    <h4 class="service_card_title">Fruits & Vegetables</h4>
+                                    <p class="service_card_detail">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                    <a href="#" class="service_card_btnLink"><i class="fal fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Service Card Section End -->
+
+        <!-- Our Produsct Section Start -->
+        <section id="product" class="our_product">
+            <div class="container">
+                <!-- our product section title -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="product_section_title section_title">
+                            <span class="product_section_sub_title">Our Product</span>
+                            <h3 class="product_section_title">We Provide Different Organic
+                                <br> Healthy Foods</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Our Product Card Start -->
+                <div class="our_product_row">
+                    <div class="row">
+                        <!-- Product Card navigator -->
+                        <div class="col-md-12">
+                            <div class="product_card_navbar">
+                                <ul class="product_cat_nav">
+                                    <li class="product_cat_nav_list">
+                                        <button class="product_cat_nav_item" type="button" data-filter=".category-a">
                                         <i class="flaticon-healthy-food"></i>
                                         <span class="pr_card_nav_name">Vegetables</span>
                                     </button>
-                                </li>
-                                <li class="product_cat_nav_list">
-                                    <button class="product_cat_nav_item" type="button" data-filter=".category-b">
+                                    </li>
+                                    <li class="product_cat_nav_list">
+                                        <button class="product_cat_nav_item" type="button" data-filter=".category-b">
                                         <i class="flaticon-orange"></i>
                                         <span class="pr_card_nav_name">Orange</span>
                                     </button>
-                                </li>
-                                <li class="product_cat_nav_list">
-                                    <button class="product_cat_nav_item" type="button" data-filter=".category-c">
+                                    </li>
+                                    <li class="product_cat_nav_list">
+                                        <button class="product_cat_nav_item" type="button" data-filter=".category-c">
                                         <i class="flaticon-onion"></i>
                                         <span class="pr_card_nav_name">Onion</span>
                                     </button>
-                                </li>
-                                <li class="product_cat_nav_list">
-                                    <button class="product_cat_nav_item" type="button" data-filter=".category-d">
+                                    </li>
+                                    <li class="product_cat_nav_list">
+                                        <button class="product_cat_nav_item" type="button" data-filter=".category-d">
                                         <i class="flaticon-pumkin"></i>
                                         <span class="pr_card_nav_name">Pumkin</span>
                                     </button>
-                                </li>
-                                <li class="product_cat_nav_list">
-                                    <button class="product_cat_nav_item" type="button" data-filter=".category-e">
+                                    </li>
+                                    <li class="product_cat_nav_list">
+                                        <button class="product_cat_nav_item" type="button" data-filter=".category-e">
                                         <i class="flaticon-chop"></i>
                                         <span class="pr_card_nav_name">Meat</span>
                                     </button>
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- Product Card Blocks -->
-                <div class="product_card_row">
-                    <div class="row mix_container">
-                        <!-- ./Product Card -1 -->
-                        <div class="col-md-3 mix category-a category-e category-d">
-                            <div class="product_card_body">
-                                <div class="product_card_body_img">
-                                    <img src="assets/images/product_card_img_1.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="product_card_bodyDetail">
-                                    <h4 class="product_card_body_title">Fresh Orange</h4>
-                                    <span class="product_card_rating">
+                    <!-- Product Card Blocks -->
+                    <div class="product_card_row">
+                        <div class="row mix_container">
+                            <!-- ./Product Card -1 -->
+                            <div class="col-md-3 mix category-a category-e category-d">
+                                <div class="product_card_body">
+                                    <div class="product_card_body_img">
+                                        <img src="assets/images/product_card_img_1.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="product_card_bodyDetail">
+                                        <h4 class="product_card_body_title">Fresh Orange</h4>
+                                        <span class="product_card_rating">
                                             <ul class="pc_ratings">
                                                 <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
                                                 <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
@@ -418,31 +550,32 @@
                                                 <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
                                             </ul>
                                         </span>
-                                    <span class="product_price">$49.99</span>
-                                </div>
-                                <!-- Product card Hover -->
-                                <div class="product_card_hover">
-                                    <div class="product_card_detail_icon">
-                                        <ul class="pcd_icons">
-                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fal fa-expand-wide"></i></a></li>
-                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="far fa-heart"></i></a></li>
-                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-retweet"></i></a></li>
-                                        </ul>
-                                        <!-- ./ADD TO cart Button -->
-                                        <a href="#" class="product_addToCart_btn">Add to cart <i class="far fa-plus"></i></a>
+                                        <span class="product_price">$49.99</span>
+                                    </div>
+                                    <!-- Product card Hover -->
+                                    <div class="product_card_hover">
+                                        <div class="product_card_detail_icon">
+                                            <ul class="pcd_icons">
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fal fa-expand-wide"></i></a></li>
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="far fa-heart"></i></a></li>
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-retweet"></i></a></li>
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-eye"></i></a></li>
+                                            </ul>
+                                            <!-- ./ADD TO cart Button -->
+                                            <a href="#" class="product_addToCart_btn">Add to cart <i class="far fa-plus"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- ./Product Card - 2 -->
-                        <div class="col-md-3 mix category-a category-d category-c">
-                            <div class="product_card_body">
-                                <div class="product_card_body_img">
-                                    <img src="assets/images/product_card_img_2.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="product_card_bodyDetail">
-                                    <h4 class="product_card_body_title">Fresh Banana</h4>
-                                    <span class="product_card_rating">
+                            <!-- ./Product Card - 2 -->
+                            <div class="col-md-3 mix category-a category-d category-c">
+                                <div class="product_card_body">
+                                    <div class="product_card_body_img">
+                                        <img src="assets/images/product_card_img_2.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="product_card_bodyDetail">
+                                        <h4 class="product_card_body_title">Fresh Banana</h4>
+                                        <span class="product_card_rating">
                                             <ul class="pc_ratings">
                                                 <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
                                                 <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
@@ -451,31 +584,32 @@
                                                 <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
                                             </ul>
                                         </span>
-                                    <span class="product_price">$49.99</span>
-                                </div>
-                                <!-- Product card Hover -->
-                                <div class="product_card_hover">
-                                    <div class="product_card_detail_icon">
-                                        <ul class="pcd_icons">
-                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fal fa-expand-wide"></i></a></li>
-                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="far fa-heart"></i></a></li>
-                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-retweet"></i></a></li>
-                                        </ul>
-                                        <!-- ./ADD TO cart Button -->
-                                        <a href="#" class="product_addToCart_btn">Add to cart <i class="far fa-plus"></i></a>
+                                        <span class="product_price">$49.99</span>
+                                    </div>
+                                    <!-- Product card Hover -->
+                                    <div class="product_card_hover">
+                                        <div class="product_card_detail_icon">
+                                            <ul class="pcd_icons">
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fal fa-expand-wide"></i></a></li>
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="far fa-heart"></i></a></li>
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-retweet"></i></a></li>
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-eye"></i></a></li>
+                                            </ul>
+                                            <!-- ./ADD TO cart Button -->
+                                            <a href="#" class="product_addToCart_btn">Add to cart <i class="far fa-plus"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- ./Product card - 3 -->
-                        <div class="col-md-3 mix category-a category-b">
-                            <div class="product_card_body">
-                                <div class="product_card_body_img">
-                                    <img src="assets/images/product_card_img_3.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="product_card_bodyDetail">
-                                    <h4 class="product_card_body_title">Fresh Beans</h4>
-                                    <span class="product_card_rating">
+                            <!-- ./Product card - 3 -->
+                            <div class="col-md-3 mix category-a category-b">
+                                <div class="product_card_body">
+                                    <div class="product_card_body_img">
+                                        <img src="assets/images/product_card_img_3.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="product_card_bodyDetail">
+                                        <h4 class="product_card_body_title">Fresh Beans</h4>
+                                        <span class="product_card_rating">
                                             <ul class="pc_ratings">
                                                 <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
                                                 <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
@@ -484,31 +618,32 @@
                                                 <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
                                             </ul>
                                         </span>
-                                    <span class="product_price">$49.99</span>
-                                </div>
-                                <!-- Product card Hover -->
-                                <div class="product_card_hover">
-                                    <div class="product_card_detail_icon">
-                                        <ul class="pcd_icons">
-                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fal fa-expand-wide"></i></a></li>
-                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="far fa-heart"></i></a></li>
-                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-retweet"></i></a></li>
-                                        </ul>
-                                        <!-- ./ADD TO cart Button -->
-                                        <a href="#" class="product_addToCart_btn">Add to cart <i class="far fa-plus"></i></a>
+                                        <span class="product_price">$49.99</span>
+                                    </div>
+                                    <!-- Product card Hover -->
+                                    <div class="product_card_hover">
+                                        <div class="product_card_detail_icon">
+                                            <ul class="pcd_icons">
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fal fa-expand-wide"></i></a></li>
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="far fa-heart"></i></a></li>
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-retweet"></i></a></li>
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-eye"></i></a></li>
+                                            </ul>
+                                            <!-- ./ADD TO cart Button -->
+                                            <a href="#" class="product_addToCart_btn">Add to cart <i class="far fa-plus"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- ./Product Card - 4 -->
-                        <div class="col-md-3 mix category-a category-c category-e">
-                            <div class="product_card_body">
-                                <div class="product_card_body_img">
-                                    <img src="assets/images/product_card_img_4.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="product_card_bodyDetail">
-                                    <h4 class="product_card_body_title">Fresh Tomato</h4>
-                                    <span class="product_card_rating">
+                            <!-- ./Product Card - 4 -->
+                            <div class="col-md-3 mix category-a category-c category-e">
+                                <div class="product_card_body">
+                                    <div class="product_card_body_img">
+                                        <img src="assets/images/product_card_img_4.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="product_card_bodyDetail">
+                                        <h4 class="product_card_body_title">Fresh Tomato</h4>
+                                        <span class="product_card_rating">
                                             <ul class="pc_ratings">
                                                 <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
                                                 <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
@@ -517,18 +652,20 @@
                                                 <li class="pc_rating_list"><a href="#" class="pc_rating_item"><i class="fal fa-star"></i></a></li>
                                             </ul>
                                         </span>
-                                    <span class="product_price">$49.99</span>
-                                </div>
-                                <!-- Product card Hover -->
-                                <div class="product_card_hover">
-                                    <div class="product_card_detail_icon">
-                                        <ul class="pcd_icons">
-                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fal fa-expand-wide"></i></a></li>
-                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="far fa-heart"></i></a></li>
-                                            <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-retweet"></i></a></li>
-                                        </ul>
-                                        <!-- ./ADD TO cart Button -->
-                                        <a href="#" class="product_addToCart_btn">Add to cart <i class="far fa-plus"></i></a>
+                                        <span class="product_price">$49.99</span>
+                                    </div>
+                                    <!-- Product card Hover -->
+                                    <div class="product_card_hover">
+                                        <div class="product_card_detail_icon">
+                                            <ul class="pcd_icons">
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fal fa-expand-wide"></i></a></li>
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="far fa-heart"></i></a></li>
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-retweet"></i></a></li>
+                                                <li class="pcd_icons_list"><a href="#" class="pcd_icon"><i class="fas fa-eye"></i></a></li>
+                                            </ul>
+                                            <!-- ./ADD TO cart Button -->
+                                            <a href="#" class="product_addToCart_btn">Add to cart <i class="far fa-plus"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -536,181 +673,299 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Load more Product Cards Button -->
-        <a href="#" class="view_more_productsCard">View More Products <i class="fas fa-plus"></i></a>
-    </section>
-    <!-- Our Produsct Section End -->
+            <!-- Load more Product Cards Button -->
+            <a href="#" class="view_more_productsCard">View More Products <i class="fas fa-plus"></i></a>
+        </section>
+        <!-- Our Produsct Section End -->
 
-    <!-- CTA Section Start -->
-    <section id="cta_section" class="cta_wrapper">
-        <div class="container">
-            <div class="row">
-                <!-- Main Column for Content -->
-                <div class="col-md-6">
-                    <div class="cta_left_column">
-                        <span class="cta_sub_head">Free Consultations</span>
-                        <h1 class="cta_main_head">Food is Very Important <br> for every Human Beings</h1>
-                        <p class="cta_desc">with love and dedications</p>
-                        <ul class="cta_btns_row">
-                            <li class="cta_btns"><a href="#" class="cta_btn cta_get_quoteBtn">Get a Quote <i class="fas fa-plus"></i></a></li>
-                            <li class="cta_btns"><a href="https://youtu.be/QH-7pHhjvaM" data-autoplay="true" data-vbtype="video" class="venobox cta_btn cta_video_btn">Watch Videos <i class="fal fa-play"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- ./this one is For blank -->
-                <div class="offset-md-6"></div>
-            </div>
-        </div>
-        <!-- Why Choose us Section Start -->
-        <div id="whyChooseUs" class="whyChooseUse_wrapper">
-            <div class=" container">
+        <!-- CTA Section Start -->
+        <section id="cta_section" class="cta_wrapper">
+            <div class="container">
                 <div class="row">
-                    <!-- ./Column Left -->
+                    <!-- Main Column for Content -->
                     <div class="col-md-6">
-                        <div class="whyChooseUse_columnLeft">
-                            <div class="whyChooseUse_columnLeft_title">
-                                <span class="whyChooseUse_SubTitle">Why Choose Us</span>
-                                <h2 class="whyChooseUse_Title">Special Support & Caring <br> Organic farm Agency</h2>
-                            </div>
-                            <p class="whyChooseUs_descp whyChooseUs-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiaceaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
-                            <p class="whyChooseUs_descp whyChooseUs-2">Laudanti totam rem aperiaceaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
-                            <a href="#" class="whyChooseUs_btn">Learn More <i class="fas fa-plus"></i></a>
-                        </div>
-                    </div>
-                    <!-- ./Column Right -->
-                    <div class="col-md-6">
-                        <div class="whyChooseUsoption">
-                            <ul class="whyChooseUs_row">
-                                <!-- ./options 1 -->
-                                <li class="whyChooseUs_option">
-                                    <ul class="whyChooseUs-OptionCard">
-                                        <li class="whyChooseUs-OptionCardIcon">
-                                            <span class="optCardIcon">
-                                                <i class="fal fa-leaf"></i>
-                                            </span>
-                                        </li>
-                                        <li class="whyChooseUs-OptionCardDetail">
-                                            <h3 class="whyChooseUs-OptionCardDetailTitle">Natural Process</h3>
-                                            <p class="whyChooseUs-OptionCardDetailPara">Sorem ipsum dolor sit amet consecta dipisicing sed eiusmod tempor</p>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <!-- ./options 2 -->
-                                <li class="whyChooseUs_option">
-                                    <ul class="whyChooseUs-OptionCard">
-                                        <li class="whyChooseUs-OptionCardIcon">
-                                            <span class="optCardIcon">
-                                                <i class="fal fa-leaf"></i>
-                                            </span>
-                                        </li>
-                                        <li class="whyChooseUs-OptionCardDetail">
-                                            <h3 class="whyChooseUs-OptionCardDetailTitle">Natural Process</h3>
-                                            <p class="whyChooseUs-OptionCardDetailPara">Sorem ipsum dolor sit amet consecta dipisicing sed eiusmod tempor</p>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <!-- ./options 3 -->
-                                <li class="whyChooseUs_option">
-                                    <ul class="whyChooseUs-OptionCard">
-                                        <li class="whyChooseUs-OptionCardIcon">
-                                            <span class="optCardIcon">
-                                                <i class="fal fa-leaf"></i>
-                                            </span>
-                                        </li>
-                                        <li class="whyChooseUs-OptionCardDetail">
-                                            <h3 class="whyChooseUs-OptionCardDetailTitle">Natural Process</h3>
-                                            <p class="whyChooseUs-OptionCardDetailPara">Sorem ipsum dolor sit amet consecta dipisicing sed eiusmod tempor</p>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <!-- ./options 4 -->
-                                <li class="whyChooseUs_option">
-                                    <ul class="whyChooseUs-OptionCard">
-                                        <li class="whyChooseUs-OptionCardIcon">
-                                            <span class="optCardIcon">
-                                                <i class="fal fa-leaf"></i>
-                                            </span>
-                                        </li>
-                                        <li class="whyChooseUs-OptionCardDetail">
-                                            <h3 class="whyChooseUs-OptionCardDetailTitle">Natural Process</h3>
-                                            <p class="whyChooseUs-OptionCardDetailPara">Sorem ipsum dolor sit amet consecta dipisicing sed eiusmod tempor</p>
-                                        </li>
-                                    </ul>
-                                </li>
+                        <div class="cta_left_column">
+                            <span class="cta_sub_head">Free Consultations</span>
+                            <h1 class="cta_main_head">Food is Very Important <br> for every Human Beings</h1>
+                            <p class="cta_desc">with love and dedications</p>
+                            <ul class="cta_btns_row">
+                                <li class="cta_btns"><a href="#" class="cta_btn cta_get_quoteBtn">Get a Quote <i class="fas fa-plus"></i></a></li>
+                                <li class="cta_btns"><a href="https://youtu.be/QH-7pHhjvaM" data-autoplay="true" data-vbtype="video" class="venobox cta_btn cta_video_btn">Watch Videos <i class="fal fa-play"></i></a></li>
                             </ul>
                         </div>
                     </div>
+                    <!-- ./this one is For blank -->
+                    <div class="offset-md-6"></div>
                 </div>
             </div>
-        </div>
-        <!-- Why Choose us Section End -->
-    </section>
-    <!-- CTA Section End -->
-    <!-- Photo Gallery Sections Start -->
-    <section id="photoGallery" class="photoGallery_wrapper">
-        <div class="container">
-            <!-- Section Title -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="photoGallery_section_title section_title">
-                        <span class="photoGallery_section_sub_title">Our Product</span>
-                        <h3 class="photoGallery_section_title">Let’s See Our Beautyful
-                            <br> Gardern Views</h3>
+            <!-- Why Choose us Section Start -->
+            <div id="whyChooseUs" class="whyChooseUse_wrapper">
+                <div class=" container">
+                    <div class="row">
+                        <!-- ./Column Left -->
+                        <div class="col-md-6">
+                            <div class="whyChooseUse_columnLeft">
+                                <div class="whyChooseUse_columnLeft_title">
+                                    <span class="whyChooseUse_SubTitle">Why Choose Us</span>
+                                    <h2 class="whyChooseUse_Title">Special Support & Caring <br> Organic farm Agency</h2>
+                                </div>
+                                <p class="whyChooseUs_descp whyChooseUs-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiaceaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                                <p class="whyChooseUs_descp whyChooseUs-2">Laudanti totam rem aperiaceaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                                <a href="#" class="whyChooseUs_btn">Learn More <i class="fas fa-plus"></i></a>
+                            </div>
+                        </div>
+                        <!-- ./Column Right -->
+                        <div class="col-md-6">
+                            <div class="whyChooseUsoption">
+                                <ul class="whyChooseUs_row">
+                                    <!-- ./options 1 -->
+                                    <li class="whyChooseUs_option">
+                                        <ul class="whyChooseUs-OptionCard">
+                                            <li class="whyChooseUs-OptionCardIcon">
+                                                <span class="optCardIcon">
+                                                <i class="fal fa-leaf"></i>
+                                            </span>
+                                            </li>
+                                            <li class="whyChooseUs-OptionCardDetail">
+                                                <h3 class="whyChooseUs-OptionCardDetailTitle">Natural Process</h3>
+                                                <p class="whyChooseUs-OptionCardDetailPara">Sorem ipsum dolor sit amet consecta dipisicing sed eiusmod tempor</p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- ./options 2 -->
+                                    <li class="whyChooseUs_option">
+                                        <ul class="whyChooseUs-OptionCard">
+                                            <li class="whyChooseUs-OptionCardIcon">
+                                                <span class="optCardIcon">
+                                                <i class="fal fa-leaf"></i>
+                                            </span>
+                                            </li>
+                                            <li class="whyChooseUs-OptionCardDetail">
+                                                <h3 class="whyChooseUs-OptionCardDetailTitle">Natural Process</h3>
+                                                <p class="whyChooseUs-OptionCardDetailPara">Sorem ipsum dolor sit amet consecta dipisicing sed eiusmod tempor</p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- ./options 3 -->
+                                    <li class="whyChooseUs_option">
+                                        <ul class="whyChooseUs-OptionCard">
+                                            <li class="whyChooseUs-OptionCardIcon">
+                                                <span class="optCardIcon">
+                                                <i class="fal fa-leaf"></i>
+                                            </span>
+                                            </li>
+                                            <li class="whyChooseUs-OptionCardDetail">
+                                                <h3 class="whyChooseUs-OptionCardDetailTitle">Natural Process</h3>
+                                                <p class="whyChooseUs-OptionCardDetailPara">Sorem ipsum dolor sit amet consecta dipisicing sed eiusmod tempor</p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- ./options 4 -->
+                                    <li class="whyChooseUs_option">
+                                        <ul class="whyChooseUs-OptionCard">
+                                            <li class="whyChooseUs-OptionCardIcon">
+                                                <span class="optCardIcon">
+                                                <i class="fal fa-leaf"></i>
+                                            </span>
+                                            </li>
+                                            <li class="whyChooseUs-OptionCardDetail">
+                                                <h3 class="whyChooseUs-OptionCardDetailTitle">Natural Process</h3>
+                                                <p class="whyChooseUs-OptionCardDetailPara">Sorem ipsum dolor sit amet consecta dipisicing sed eiusmod tempor</p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Gallery Main Row Navigation -->
-            <div class="galleryNav">
-                <ul class="galleryNavigationItem">
-                    <li class="galleryNavItem">
-                        <button type="button" class="galleryNavBtn">Show All</button>
-                    </li>
-                    <li class="galleryNavItem">
-                        <button type="button" class="galleryNavBtn">Vegetables</button>
-                    </li>
-                    <li class="galleryNavItem">
-                        <button type="button" class="galleryNavBtn">Farmers</button>
-                    </li>
-                    <li class="galleryNavItem">
-                        <button type="button" class="galleryNavBtn">Doctors</button>
-                    </li>
-                    <li class="galleryNavItem">
-                        <button type="button" class="galleryNavBtn">Fruits</button>
-                    </li>
-                    <li class="galleryNavItem">
-                        <button type="button" class="galleryNavBtn">Garden</button>
-                    </li>
-                </ul>
+            <!-- Why Choose us Section End -->
+        </section>
+        <!-- CTA Section End -->
+        <!-- Photo Gallery Sections Start -->
+        <section id="photoGallery" class="photoGallery_wrapper">
+            <div class="container">
+                <!-- Section Title -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="photoGallery_section_title section_title">
+                            <span class="photoGallery_section_sub_title">Our Product</span>
+                            <h3 class="photoGallery_section_title">Let’s See Our Beautyful
+                                <br> Gardern Views</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Main Row Navigation -->
+                <div class="galleryNav">
+                    <ul class="galleryNavigationItem">
+                        <li class="galleryNavItem">
+                            <button type="button" class="galleryNavBtn">Show All</button>
+                        </li>
+                        <li class="galleryNavItem">
+                            <button type="button" class="galleryNavBtn">Vegetables</button>
+                        </li>
+                        <li class="galleryNavItem">
+                            <button type="button" class="galleryNavBtn">Farmers</button>
+                        </li>
+                        <li class="galleryNavItem">
+                            <button type="button" class="galleryNavBtn">Doctors</button>
+                        </li>
+                        <li class="galleryNavItem">
+                            <button type="button" class="galleryNavBtn">Fruits</button>
+                        </li>
+                        <li class="galleryNavItem">
+                            <button type="button" class="galleryNavBtn">Garden</button>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <!-- Gallery card row -->
-            <div class="galleryCardRow">
-                <!-- Gallery Card - 1 -->
-                <div class="galleryCard">
-
+            <div class="galleryCardRow mt-5 mb-5">
+                <div class="container-fluid px-5">
+                    <div class="row row-cols-auto">
+                        <!-- ./Gallery card-1: Start -->
+                        <div class="col-3">
+                            <div class="galleryCard">
+                                <!-- ../Card Main -->
+                                <img src="assets/images/galleryCard_1.png" alt="gallery Images" class="img-fluid h-100 w-100">
+                                <!-- ../Card Hover -->
+                                <div class="gallery_card_Hover">
+                                    <h3 class="gallery_hover_title">Organic Vegetables</h3>
+                                    <p class="gallery_hover_text">Fresh Food</p>
+                                </div>
+                                <!-- ../View More Button -->
+                                <a href="#" class="gal_card_btn"><i class="fas fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- ./Gallery card-1: End -->
+                        <!-- ./Gallery card-2: Start -->
+                        <div class="col-3">
+                            <div class="galleryCard">
+                                <!-- ../Card Main -->
+                                <img src="assets/images/galleryCard_2.png" alt="gallery Images" class="img-fluid h-100 w-100">
+                                <!-- ../Card Hover -->
+                                <div class="gallery_card_Hover">
+                                    <h3 class="gallery_hover_title">Organic Vegetables</h3>
+                                    <p class="gallery_hover_text">Fresh Food</p>
+                                </div>
+                                <!-- ../View More Button -->
+                                <a href="#" class="gal_card_btn"><i class="fas fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- ./Gallery card-2: End -->
+                        <!-- ./Gallery card-3: Start -->
+                        <div class="col-3">
+                            <div class="galleryCard">
+                                <!-- ../Card Main -->
+                                <img src="assets/images/galleryCard_3.png" alt="gallery Images" class="img-fluid h-100 w-100">
+                                <!-- ../Card Hover -->
+                                <div class="gallery_card_Hover">
+                                    <h3 class="gallery_hover_title">Organic Vegetables</h3>
+                                    <p class="gallery_hover_text">Fresh Food</p>
+                                </div>
+                                <!-- ../View More Button -->
+                                <a href="#" class="gal_card_btn"><i class="fas fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- ./Gallery card-3: End -->
+                        <!-- ./Gallery card-4: Start -->
+                        <div class="col-3">
+                            <div class="galleryCard">
+                                <!-- ../Card Main -->
+                                <img src="assets/images/galleryCard_4.png" alt="gallery Images" class="img-fluid h-100 w-100">
+                                <!-- ../Card Hover -->
+                                <div class="gallery_card_Hover">
+                                    <h3 class="gallery_hover_title">Organic Vegetables</h3>
+                                    <p class="gallery_hover_text">Fresh Food</p>
+                                </div>
+                                <!-- ../View More Button -->
+                                <a href="#" class="gal_card_btn"><i class="fas fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- ./Gallery card-4: End -->
+                        <!-- ./Gallery card-5: Start -->
+                        <div class="col-6 mt-4">
+                            <div class="galleryCard h-100">
+                                <!-- ../Card Main -->
+                                <img src="assets/images/galleryCard_6.png" alt="gallery Images" class="img-fluid h-100 w-100">
+                                <!-- ../Card Hover -->
+                                <div class="gallery_card_Hover">
+                                    <h3 class="gallery_hover_title">Organic Vegetables</h3>
+                                    <p class="gallery_hover_text">Fresh Food</p>
+                                </div>
+                                <!-- ../View More Button -->
+                                <a href="#" class="gal_card_btn"><i class="fas fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- ./Gallery card-5: End -->
+                        <!-- ./Gallery card-6: Start -->
+                        <div class="col-3 mt-4">
+                            <div class="galleryCard">
+                                <!-- ../Card Main -->
+                                <img src="assets/images/galleryCard_7.png" alt="gallery Images" class="img-fluid h-100 w-100">
+                                <!-- ../Card Hover -->
+                                <div class="gallery_card_Hover">
+                                    <h3 class="gallery_hover_title">Organic Vegetables</h3>
+                                    <p class="gallery_hover_text">Fresh Food</p>
+                                </div>
+                                <!-- ../View More Button -->
+                                <a href="#" class="gal_card_btn"><i class="fas fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- ./Gallery card-6: End -->
+                        <!-- ./Gallery card-7: Start -->
+                        <div class="col-3 mt-4">
+                            <div class="galleryCard">
+                                <!-- ../Card Main -->
+                                <img src="assets/images/galleryCard_8.png" alt="gallery Images" class="img-fluid h-100 w-100">
+                                <!-- ../Card Hover -->
+                                <div class="gallery_card_Hover">
+                                    <h3 class="gallery_hover_title">Organic Vegetables</h3>
+                                    <p class="gallery_hover_text">Fresh Food</p>
+                                </div>
+                                <!-- ../View More Button -->
+                                <a href="#" class="gal_card_btn"><i class="fas fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- ./Gallery card-7: End -->
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Photo Gallery Sections End -->
+        </section>
+        <!-- Photo Gallery Sections End -->
+        <!-- Our Team Sections Start -->
+        <section id="our_team" class="our_team_wrapper">
+            <div class="container">
+                <!-- Sections Header -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="photoGallery_section_title section_title">
+                            <span class="photoGallery_section_sub_title">Team Members</span>
+                            <h3 class="photoGallery_section_title">Meet Our Expert Team
+                                <br>Members</h3>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+        </section>
+        <!-- Our Team Sections End -->
+    </main>
+    <!-- ===Main Content Section: Start=== -->
+
+
 
 
     <!-- Javascript -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@1.11.0/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.0/jquery-migrate.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js" async defer></script>
-    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async defer></script>
-    <script type="text/javascript" src="assets/js/fontawesome.min.js" async defer></script>
-    <script type="text/javascript" src="https://projects-directory.netlify.app/assets/js/6332f77505.js" async defer></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/venobox@1/venobox/venobox.min.js"></script>
-    <script type="text/javascript" src="assets/js/mixitup.min.js" async defer></script>
-    <!-- Internal Javascript -->
-    <script>
-        // Venobox for Video plugin
-        $(document).ready(function() {
-            $('.venobox').venobox();
-        });
-    </script>
+    <script src="assets/vendor/jQuery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/vendor/fontawesome-free-5.15.4/js/fontawesome.js"></script>
+    <!-- <script src="assets/vendor/fontawesome-free-5.15.4/js/all.js"></script> -->
+    <script src="assets/vendor/font-pro/6332f77505.js"></script>
+    <script src="assets/vendor/mixitup-v3/mixitup.js"></script>
+    <script src="assets/vendor/slick-1.8.1/slick.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
