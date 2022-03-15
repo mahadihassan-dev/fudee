@@ -1777,11 +1777,13 @@ ul.whyChooseUs_row {
 .galleryCard {
     position: relative;
     transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    overflow: hidden;
 }
 
 .galleryCard:hover>.gallery_card_Hover {
     opacity: 1;
     visibility: visible;
+    transform: translateX(0px);
 }
 
 .galleryCard:hover>.gal_card_btn {
@@ -1798,9 +1800,10 @@ ul.whyChooseUs_row {
     height: 100%;
     background: #6cbe03c7;
     padding: 45px 55px;
-    transition: all .5s cubic-bezier(0.49, -0.01, 0.06, 1.21);
+    transition: all .3s cubic-bezier(0.49, -0.01, 0.06, 1.21);
     opacity: 0;
     visibility: hidden;
+    transform: translateX(-35px);
 }
 
 .gal_card_btn i {
