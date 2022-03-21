@@ -5,14 +5,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=7">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <!-- Site Title -->
     <title>Fudee | HTML Template</title>
     <meta name="description" content="Fudee is Organic Product HTML Template. Designed and Developed By Mahadi Hassan.">
     <meta name="keywords" content="fudee; HTML Template; Themeforest; Front End Development; Mahadi Hassan">
     <link rel="shortcut icon" href="assets/images/favico.png" type="image/x-icon">
     <meta name="description" content="mahadi hassan; Fudee HTML Template;">
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta name="theme-color" content="#fafafa">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="shortcut icon" href="assets/img/fav-icon.png" type="image/x-icon">
     <!-- Theme Core CSS Style -->
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- Bootstrap 5 -->
@@ -24,6 +33,12 @@
     <link rel="stylesheet" href="assets/icon/flaticon.css">
     <!-- Venobox -->
     <link rel="stylesheet" href="assets/vendor/venobox-v2/venobox.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="assets/vendor/slick-1.8.1/slick.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="assets/vendor/aos-master/aos.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/vendor/animate.css/animate.css">
     <!-- Signika Font = Google Font API -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -266,7 +281,7 @@
                 <div class="fudee_banner-row">
                     <!-- Banner left Column -->
                     <div class="fudee_banner-left-col">
-                        <div class="banner_left_content">
+                        <div class="banner_left_content animate__animated animate__fadeInDown">
                             <span class="banner_left_subTitle">Food and Vegetables</span>
                             <h1 class="banner_left_mainTitle"> <span>Organic</span> Food <br> Providers </h1>
                             <ul class="banner_left_button_list">
@@ -935,7 +950,7 @@
         </section>
         <!-- Photo Gallery Sections End -->
         <!-- Our Team Sections Start -->
-        <section id="our_team" class="our_team_wrapper">
+        <section id="our_team" class="our_team_wrapper mt-5 mb-5">
             <div class="container">
                 <!-- Sections Header -->
                 <div class="row">
@@ -947,24 +962,675 @@
                         </div>
                     </div>
                 </div>
-                <!--  -->
+                <!-- Team Member card Start -->
+                <div class="row team-slider mt-5 mb-5">
+                    <!-- ./Member Card 1: Start -->
+                    <div class="col-3">
+                        <div class="team_member_card">
+                            <div class="team_member_thumb">
+                                <img src="assets/images/team_member_01.png" alt="team member" class="img-fluid w-100">
+                            </div>
+                            <div class="team_member_info text-center w-100">
+                                <h3 class="team_member_name">Benjamin R. Preece</h3>
+                                <p class="team_member_designation">Organic farm</p>
+                                <ul class="team_member_social_media">
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-pinterest-p"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Member Card 1: End -->
+                    <!-- ./Member Card 2: Start -->
+                    <div class="col-3">
+                        <div class="team_member_card">
+                            <div class="team_member_thumb">
+                                <img src="assets/images/team_member_02.png" alt="team member" class="img-fluid w-100">
+                            </div>
+                            <div class="team_member_info text-center">
+                                <h3 class="team_member_name">Benjamin R. Preece</h3>
+                                <p class="team_member_designation">Organic farm</p>
+                                <ul class="team_member_social_media">
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-pinterest-p"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Member Card 2: End -->
+                    <!-- ./Member Card 3: Start -->
+                    <div class="col-3">
+                        <div class="team_member_card">
+                            <div class="team_member_thumb">
+                                <img src="assets/images/team_member_03.png" alt="team member" class="img-fluid w-100">
+                            </div>
+                            <div class="team_member_info text-center">
+                                <h3 class="team_member_name">Benjamin R. Preece</h3>
+                                <p class="team_member_designation">Organic farm</p>
+                                <ul class="team_member_social_media">
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-pinterest-p"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Member Card 3: End -->
+                    <!-- ./Member Card 4: Start -->
+                    <div class="col-3">
+                        <div class="team_member_card">
+                            <div class="team_member_thumb">
+                                <img src="assets/images/team_member_04.png" alt="team member" class="img-fluid w-100">
+                            </div>
+                            <div class="team_member_info text-center">
+                                <h3 class="team_member_name">Benjamin R. Preece</h3>
+                                <p class="team_member_designation">Organic farm</p>
+                                <ul class="team_member_social_media">
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-pinterest-p"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Member Card 4: End -->
+                    <!-- ./Member Card 5: Start -->
+                    <div class="col-3">
+                        <div class="team_member_card">
+                            <div class="team_member_thumb">
+                                <img src="assets/images/team_member_05.png" alt="team member" class="img-fluid w-100">
+                            </div>
+                            <div class="team_member_info text-center">
+                                <h3 class="team_member_name">Benjamin R. Preece</h3>
+                                <p class="team_member_designation">Organic farm</p>
+                                <ul class="team_member_social_media">
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-pinterest-p"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Member Card 5: End -->
+                    <!-- ./Member Card 6: Start -->
+                    <div class="col-3">
+                        <div class="team_member_card">
+                            <div class="team_member_thumb">
+                                <img src="assets/images/team_member_06.png" alt="team member" class="img-fluid w-100">
+                            </div>
+                            <div class="team_member_info text-center">
+                                <h3 class="team_member_name">Benjamin R. Preece</h3>
+                                <p class="team_member_designation">Organic farm</p>
+                                <ul class="team_member_social_media">
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-pinterest-p"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team_member_social_list d-inline-block">
+                                        <a href="#" class="team_social_media_link d-block">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Member Card 6: End -->
+                </div>
+                <!-- Team Member card End -->
             </div>
         </section>
         <!-- Our Team Sections End -->
+        <!-- Video CTA Section Start -->
+        <section id="video_CTA" class="video_cta_wrapper mt-5">
+            <div class="container">
+                <div class="row row-cols-1">
+                    <!-- Video CTA Play Button: Start -->
+                    <div class="col-12 mt-5">
+                        <div class="video_play_button text-center">
+                            <a href="https://youtu.be/csAXruiBLTs" class="vdeo_cta_btn" data-autoplay="false" data-vbtype="video" data-maxwidth="800px" data-maxheight="600px">
+                                <i class="fas fa-play"></i>
+                                <span class="vd_cta_circle vd_cta_circle-1"></span>
+                                <span class="vd_cta_circle vd_cta_circle-2"></span>
+                                <span class="vd_cta_circle vd_cta_circle-3"></span>
+                            </a>
+                            <p class="video_cta_desc_text">Watch Our Latest Videos</p>
+                        </div>
+                    </div>
+                    <!-- Video CTA Play Button: End -->
+                    <!-- Success Rate: Start -->
+                    <div class="video_counter">
+                        <div class="row h-100">
+                            <!-- ../Video Counter Col - 1: Start -->
+                            <div class="col-3  h-100">
+                                <div class="video_counter_card w-100 h-100">
+                                    <!-- <span class="vid_counter">25 <sup><i class="fas fa-plus"></i></sup> </span> -->
+                                    <span class="vid_counter">25 </span>
+                                    <p class="counter_dsc">Years Of Experience</p>
+                                </div>
+                            </div>
+                            <!-- ../Video Counter Col - 1: End -->
+                            <!-- ../Video Counter Col - 2: Start -->
+                            <div class="col-3  h-100">
+                                <div class="video_counter_card w-100 h-100">
+                                    <!-- <span class="vid_counter">25 <sup><i class="fas fa-plus"></i></sup> </span> -->
+                                    <span class="vid_counter">75 </span>
+                                    <p class="counter_dsc">Exclusive Member</p>
+                                </div>
+                            </div>
+                            <!-- ../Video Counter Col - 2: End -->
+                            <!-- ../Video Counter Col - 3: Start -->
+                            <div class="col-3  h-100">
+                                <div class="video_counter_card w-100 h-100">
+                                    <!-- <span class="vid_counter">25 <sup><i class="fas fa-plus"></i></sup> </span> -->
+                                    <p class="vid_counter_text"><span class="vid_counter">6 </span>k</p>
+                                    <p class="counter_dsc">Awards Winning</p>
+                                </div>
+                            </div>
+                            <!-- ../Video Counter Col - 3: End -->
+                            <!-- ../Video Counter Col - 4: Start -->
+                            <div class="col-3  h-100">
+                                <div class="video_counter_card w-100 h-100">
+                                    <!-- <span class="vid_counter">25 <sup><i class="fas fa-plus"></i></sup> </span> -->
+                                    <span class="vid_counter">93 </span>
+                                    <p class="counter_dsc">Global Garden</p>
+                                </div>
+                            </div>
+                            <!-- ../Video Counter Col - 4: End -->
+                        </div>
+                    </div>
+                    <!-- Success Rate: End -->
+                </div>
+            </div>
+        </section>
+        <!-- Video CTA Section End -->
+        <!-- Client Review Section Start -->
+        <section id="client_reviews" class="client_review_wrapper pt__120">
+            <div class="container px-5">
+                <div class="row row-cols-2">
+                    <!-- Client Review - Left: Start -->
+                    <div class="col-5">
+                        <div class="Client_review_left_col">
+                            <img src="assets/images/client_review_left.png" alt="Client Review Left" class="img-fluid w-100">
+                        </div>
+                    </div>
+                    <!-- Client Review - Left: End -->
+                    <!-- Client Review Slider - Right: Start -->
+                    <div class="col-7">
+                        <div class="client_review_slider">
+                            <div class="client_review_section_title mt-5">
+                                <span class="clnt_review_sub_title">Company Reviews</span>
+                                <h2 class="clnt_review_title">What Loving People <br> Say About us</h2>
+                            </div>
+                            <!-- ../Review Slider: Start -->
+                            <div class="clnt_review_slider mt__60">
+                                <!-- ../Review Slide - 1 : Start -->
+                                <div class="client_review_slide">
+                                    <div class="client_review_box">
+                                        <ul class="client_review_rating p-0">
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                        </ul>
+                                        <p class="client_review_text">Sedut perspiciati unde omnis iste natus error sit volupt accusa ntium oloremque laudantium totam rem aperiam eaque ipsa quinv entore veritatis architecto <br> slide - 1</p>
+                                    </div>
+                                    <div class="Client_review_Client_info">
+                                        <div class="client_rv_info m-0 p-0">
+                                            <div class="d-inline-block client_rv_info_lists client_thumb">
+                                                <img src="assets/images/client_thumb.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="d-inline-block client_rv_info_lists client_info">
+                                                <h5 class="client_info_name">Sileen R. Williams</h5>
+                                                <span class="client_designation">CEO of Akij Group</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ../Review Slide - 1 : End -->
+                                <!-- ../Review Slide - 2 : Start -->
+                                <div class="client_review_slide">
+                                    <div class="client_review_box">
+                                        <ul class="client_review_rating p-0">
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                        </ul>
+                                        <p class="client_review_text">Sedut perspiciati unde omnis iste natus error sit volupt accusa ntium oloremque laudantium totam rem aperiam eaque ipsa quinv entore veritatis architecto <br> slide - 2</p>
+                                    </div>
+                                    <div class="Client_review_Client_info">
+                                        <div class="client_rv_info m-0 p-0">
+                                            <div class="d-inline-block client_rv_info_lists client_thumb">
+                                                <img src="assets/images/client_thumb.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="d-inline-block client_rv_info_lists client_info">
+                                                <h5 class="client_info_name">Sileen R. Williams</h5>
+                                                <span class="client_designation">CEO of Akij Group</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ../Review Slide - 2 : End -->
+                                <!-- ../Review Slide - 3 : Start -->
+                                <div class="client_review_slide">
+                                    <div class="client_review_box">
+                                        <ul class="client_review_rating p-0">
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                        </ul>
+                                        <p class="client_review_text">Sedut perspiciati unde omnis iste natus error sit volupt accusa ntium oloremque laudantium totam rem aperiam eaque ipsa quinv entore veritatis architecto <br> slide - 3</p>
+                                    </div>
+                                    <div class="Client_review_Client_info">
+                                        <div class="client_rv_info m-0 p-0">
+                                            <div class="d-inline-block client_rv_info_lists client_thumb">
+                                                <img src="assets/images/client_thumb.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="d-inline-block client_rv_info_lists client_info">
+                                                <h5 class="client_info_name">Sileen R. Williams</h5>
+                                                <span class="client_designation">CEO of Akij Group</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ../Review Slide - 3 : End -->
+                                <!-- ../Review Slide - 4 : Start -->
+                                <div class="client_review_slide">
+                                    <div class="client_review_box">
+                                        <ul class="client_review_rating p-0">
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                            <li class="client_review_start_rate d-inline-block"><i class="fas fa-star text-success"></i></li>
+                                        </ul>
+                                        <p class="client_review_text">Sedut perspiciati unde omnis iste natus error sit volupt accusa ntium oloremque laudantium totam rem aperiam eaque ipsa quinv entore veritatis architecto <br> slide - 4</p>
+                                    </div>
+                                    <div class="Client_review_Client_info">
+                                        <div class="client_rv_info m-0 p-0">
+                                            <div class="d-inline-block client_rv_info_lists client_thumb">
+                                                <img src="assets/images/client_thumb.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="d-inline-block client_rv_info_lists client_info">
+                                                <h5 class="client_info_name">Sileen R. Williams</h5>
+                                                <span class="client_designation">CEO of Akij Group</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ../Review Slide - 4 : End -->
+                            </div>
+                            <!-- ../Review Slider: End -->
+                        </div>
+                    </div>
+                    <!-- Client Review Slider - Right: End -->
+                </div>
+            </div>
+        </section>
+        <!-- Client Review Section End -->
+        <!-- Blog Section Start -->
+        <section id="blog" class="blog_wrapper py-5">
+            <div class="container">
+                <!-- ./Blog Section title: Start -->
+                <div class="row">
+                    <div class="blog-section_title section_title">
+                        <span class="section_subtitle">Article & Tips</span>
+                        <h2 class="blog_section_title">Let’s Read Our Latest
+                            <br> News & Blog</h2>
+                    </div>
+                </div>
+                <!-- ./Blog Section title: End -->
+                <!-- ./Blog Card Section: Start -->
+                <div class="blog_cards py-5">
+                    <div class="blog_card_row">
+                        <div class="row">
+                            <!-- ../Blog Card-1: Start -->
+                            <div class="col-4">
+                                <div class="blog-card-body w-100 h-100">
+                                    <div class="blog-thumbnail w-100">
+                                        <img src="assets/images/blog_card_thumbnail-01.png" alt="blog card thumbnail" class="img-fluid w-100 h-100">
+                                        <!-- .../blog publish date -->
+                                        <ul class="blog_publish_date-month p-0 m-0">
+                                            <li class="blog-publish-dt-mn blog_publish-date">30</li>
+                                            <li class="blog-publish-dt-mn blog_publish-month">Aug</li>
+                                        </ul>
+                                    </div>
+                                    <div class="blog_details">
+                                        <div class="blog_author_comments">
+                                            <ul class="blog_author_cmnts p-0 m-0">
+                                                <li class="blog_author_cmnts-list d-inline-block"><a href="#" class="blog_author"><i class="far fa-user-circle"></i> Michel Clerk </a></li>
+                                                <li class="blog_author_cmnts-list d-inline-block"><a href="#" class="blog_cmnts"><i class="far fa-comment"></i><span class="blog_comment_count">(22)</span></a></li>
+                                            </ul>
+                                        </div>
+                                        <a href="#" class="blog_desc_title">Building Killer Robots Game 
+                                            Sehavior iOS With Fuzzy</a>
+                                        <p class="blog_desc">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem ccusantium doloremque laudantium totam
+                                        </p>
+                                        <a href="#" class="blog_desc-btn">Read More <i class="far fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ../Blog Card-1: End -->
+                            <!-- ../Blog Card-2: Start -->
+                            <div class="col-4">
+                                <div class="blog-card-body w-100 h-100">
+                                    <div class="blog-thumbnail w-100">
+                                        <img src="assets/images/blog_card_thumbnail-02.png" alt="blog card thumbnail" class="img-fluid w-100 h-100">
+                                        <!-- .../blog publish date -->
+                                        <ul class="blog_publish_date-month p-0 m-0">
+                                            <li class="blog-publish-dt-mn blog_publish-date">30</li>
+                                            <li class="blog-publish-dt-mn blog_publish-month">Aug</li>
+                                        </ul>
+                                    </div>
+                                    <div class="blog_details">
+                                        <div class="blog_author_comments">
+                                            <ul class="blog_author_cmnts p-0 m-0">
+                                                <li class="blog_author_cmnts-list d-inline-block"><a href="#" class="blog_author"><i class="far fa-user-circle"></i> Michel Clerk </a></li>
+                                                <li class="blog_author_cmnts-list d-inline-block"><a href="#" class="blog_cmnts"><i class="far fa-comment"></i><span class="blog_comment_count">(22)</span></a></li>
+                                            </ul>
+                                        </div>
+                                        <a href="#" class="blog_desc_title">Building Killer Robots Game 
+                                            Sehavior iOS With Fuzzy</a>
+                                        <p class="blog_desc">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem ccusantium doloremque laudantium totam
+                                        </p>
+                                        <a href="#" class="blog_desc-btn">Read More <i class="far fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ../Blog Card-2: End -->
+                            <!-- ../Blog Card-3: Start -->
+                            <div class="col-4">
+                                <div class="blog-card-body w-100 h-100">
+                                    <div class="blog-thumbnail w-100">
+                                        <img src="assets/images/blog_card_thumbnail-03.png" alt="blog card thumbnail" class="img-fluid w-100 h-100">
+                                        <!-- .../blog publish date -->
+                                        <ul class="blog_publish_date-month p-0 m-0">
+                                            <li class="blog-publish-dt-mn blog_publish-date">30</li>
+                                            <li class="blog-publish-dt-mn blog_publish-month">Aug</li>
+                                        </ul>
+                                    </div>
+                                    <div class="blog_details">
+                                        <div class="blog_author_comments">
+                                            <ul class="blog_author_cmnts p-0 m-0">
+                                                <li class="blog_author_cmnts-list d-inline-block"><a href="#" class="blog_author"><i class="far fa-user-circle"></i> Michel Clerk </a></li>
+                                                <li class="blog_author_cmnts-list d-inline-block"><a href="#" class="blog_cmnts"><i class="far fa-comment"></i><span class="blog_comment_count">(22)</span></a></li>
+                                            </ul>
+                                        </div>
+                                        <a href="#" class="blog_desc_title">Building Killer Robots Game 
+                                            Sehavior iOS With Fuzzy</a>
+                                        <p class="blog_desc">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem ccusantium doloremque laudantium totam
+                                        </p>
+                                        <a href="#" class="blog_desc-btn">Read More <i class="far fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ../Blog Card-3: End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Blog Card Section: End -->
+            </div>
+        </section>
+        <!-- Blog Section End -->
+        <!-- Footer Slider Section Start -->
+        <section id="footer_slider" class="footer_slider_wrapper">
+            <div class="container">
+                <div class="row logo_slider">
+                    <div class="col footer_slide text-center">
+                        <img src="assets/images/logo_slide-01.png" alt="" class="img-fluid m-auto logo_rotate_infinite">
+                    </div>
+                    <div class="col footer_slide text-center">
+                        <img src="assets/images/logo_slide-02.png" alt="" class="img-fluid m-auto logo_rotate_infinite">
+                    </div>
+                    <div class="col footer_slide text-center">
+                        <img src="assets/images/logo_slide-03.png" alt="" class="img-fluid m-auto logo_rotate_infinite">
+                    </div>
+                    <div class="col footer_slide text-center">
+                        <img src="assets/images/logo_slide-04.png" alt="" class="img-fluid m-auto logo_rotate_infinite">
+                    </div>
+                    <div class="col footer_slide text-center">
+                        <img src="assets/images/logo_slide-05.png" alt="" class="img-fluid m-auto logo_rotate_infinite">
+                    </div>
+                    <div class="col footer_slide text-center">
+                        <img src="assets/images/logo_slide-01.png" alt="" class="img-fluid m-auto logo_rotate_infinite">
+                    </div>
+                    <div class="col footer_slide text-center">
+                        <img src="assets/images/logo_slide-02.png" alt="" class="img-fluid m-auto logo_rotate_infinite">
+                    </div>
+                    <div class="col footer_slide text-center">
+                        <img src="assets/images/logo_slide-03.png" alt="" class="img-fluid m-auto logo_rotate_infinite">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer Slider Section End -->
     </main>
     <!-- ===Main Content Section: Start=== -->
+
+    <!-- Footer Section Start -->
+    <footer id="footer_main" class="footer_wrapper">
+        <div class="container">
+            <!-- ./Footer Primary Row: Start -->
+            <div class="footer_primary">
+                <div class="row">
+                    <!-- ../Footer About Row-1: start -->
+                    <div class="col-4 footer__col">
+                        <div class="footer_about_col">
+                            <div class="footer_logo">
+                                <a href="index.html" class="_footer__logo">
+                                    <img src="assets/images/footer_logo.png" alt="footer logo" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="footer_desc">
+                                <p class="footer_about_info">Lorem ipsum dolor amet consesty adipisicing elit sed do eiusmod tem por incididunt ut labore et dolore magna aliqua ad minimsx </p>
+                                <ul class="footer_social_media">
+                                    <li class="footer_social_list d-inline-block"><a href="#" class="d-block footer_social_link"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="footer_social_list d-inline-block"><a href="#" class="d-block footer_social_link"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="footer_social_list d-inline-block"><a href="#" class="d-block footer_social_link"><i class="fab fa-instagram"></i></a></li>
+                                    <li class="footer_social_list d-inline-block"><a href="#" class="d-block footer_social_link"><i class="fab fa-behance"></i></a></li>
+                                    <li class="footer_social_list d-inline-block"><a href="#" class="d-block footer_social_link"><i class="fab fa-dribbble"></i></a></li>
+                                    <li class="footer_social_list d-inline-block"><a href="#" class="d-block footer_social_link"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ../Footer About Row-1: End -->
+                    <!-- ../Footer About Row-2: start -->
+                    <div class="col-4 footer__col">
+                        <div class="footer_quick_link">
+                            <h3 class="footer_ql-title text-white">Quick Link</h3>
+                            <div class="row row-cols-2 mt-4">
+                                <div class="col-6">
+                                    <ul class="ft_qck_link_list">
+                                        <li class="ftr_qck_list_item"><a href="#" class="ftr_qck_link"><i class="far fa-arrow-right"></i>Our Services</a></li>
+                                        <li class="ftr_qck_list_item"><a href="#" class="ftr_qck_link"><i class="far fa-arrow-right"></i>Company History</a></li>
+                                        <li class="ftr_qck_list_item"><a href="#" class="ftr_qck_link"><i class="far fa-arrow-right"></i>Latest Products</a></li>
+                                        <li class="ftr_qck_list_item"><a href="#" class="ftr_qck_link"><i class="far fa-arrow-right"></i>Team Member</a></li>
+                                        <li class="ftr_qck_list_item"><a href="#" class="ftr_qck_link"><i class="far fa-arrow-right"></i>Testimonials</a></li>
+                                        <li class="ftr_qck_list_item"><a href="#" class="ftr_qck_link"><i class="far fa-arrow-right"></i>Call To Action</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="ft_qck_link_list">
+                                        <li class="ftr_qck_list_item"><a href="#" class="ftr_qck_link"><i class="far fa-arrow-right"></i>Portfolio</a></li>
+                                        <li class="ftr_qck_list_item"><a href="#" class="ftr_qck_link"><i class="far fa-arrow-right"></i>FAQS</a></li>
+                                        <li class="ftr_qck_list_item"><a href="#" class="ftr_qck_link"><i class="far fa-arrow-right"></i>Settings</a></li>
+                                        <li class="ftr_qck_list_item"><a href="#" class="ftr_qck_link"><i class="far fa-arrow-right"></i>Need Job?</a></li>
+                                        <li class="ftr_qck_list_item"><a href="#" class="ftr_qck_link"><i class="far fa-arrow-right"></i>Payouts</a></li>
+                                        <li class="ftr_qck_list_item"><a href="#" class="ftr_qck_link"><i class="far fa-arrow-right"></i>My Accounts</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ../Footer About Row-2: End -->
+                    <!-- ../Footer About Row-3: Start -->
+                    <div class="col-4 footer__col">
+                        <div class="footer_news_subscription">
+                            <h3 class="footer_newsletter_title text-white">Newsletter</h3>
+                            <p class="footer_newsubs_detail text-white-50">Subscribe Our Newsletter <br> to get More updates about us.</p>
+                            <div class="footer_subs_form">
+                                <form action="" method="GET" class="subs__form" id="subs_form">
+                                    <div class="footer_form_subs_email">
+                                        <input type="email" name="Subscriber Email Address" id="footer_subs__email" class="footer_subs_email" placeholder="Enter your Email Address" required>
+                                    </div>
+                                    <div class="footer_form_subs_btn">
+                                        <button type="submit" id="footer_subs__email_btn" class="footer_subs_email_btn">Subscribe Now <i class="fas fa-plus"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ../Footer About Row-3: End -->
+                </div>
+            </div>
+            <!-- ./Footer Primary Row: End -->
+            <!-- ../Footer About Project Row: Start -->
+            <div class="footer_project_description">
+                <div class="row row-cols-1">
+                    <div class="col-12 text-center">
+                        <p class="footer_project_detail text-white-50">
+                            Fudee is a Organic HTML Template. This Template was Designed by Bdevs and Developed by Mahadi Hassan. You can Use Fudee in your Organic Food Business. It is Ready to use in Your Business. Here I have updated Some New Featuers. Want to test them? All of
+                            them are Live here. Just Visit every single page of it.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- ../Footer About Project Row: End -->
+            <!-- Footer Copyright Section :Start -->
+            <div class="footer_copyright">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer_copy text-center">
+                            <p class="footer_copy_text text-white-50">Copyright &copy; 2022 <a href="#">Mahadi Hassan</a> All Rights are Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Copyright Section :End -->
+        </div>
+    </footer>
+    <!-- Footer Section End -->
 
 
 
 
     <!-- Javascript -->
     <script src="assets/vendor/jQuery/jquery.min.js"></script>
+    <script src="assets/vendor/jQuery/jquery-migrate.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
     <script src="assets/vendor/fontawesome-free-5.15.4/js/fontawesome.js"></script>
-    <!-- <script src="assets/vendor/fontawesome-free-5.15.4/js/all.js"></script> -->
     <script src="assets/vendor/font-pro/6332f77505.js"></script>
     <script src="assets/vendor/mixitup-v3/mixitup.js"></script>
     <script src="assets/vendor/slick-1.8.1/slick.js"></script>
+    <script src="assets/vendor/venobox-v2/venobox.js"></script>
+    <script src="assets/vendor/aos-master/aos.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
